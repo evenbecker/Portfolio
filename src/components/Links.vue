@@ -43,6 +43,9 @@
       a {
         color: black;
       }
+      a:hover {
+        color: #8E728B;
+      }
     .centered-fixed {
       /*position: fixed;
       z-index:1;

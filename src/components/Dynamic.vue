@@ -39,10 +39,18 @@ import Links from './Links.vue'
 </script>
 <style scoped>
 .korn {
-    margin-left: 30px;
-    margin-right: 50px;
-    margin-top: 20px;
-    /*background-color: gold;*/
     max-width: 450px; 
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    /*
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 150px;
+    margin-top: 20px;
+    background-color: gold;
+    max-width: 450px; 
+    */
   }
 </style>

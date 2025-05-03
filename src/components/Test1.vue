@@ -13,8 +13,8 @@
     <div class="white">
       <div id="spacerImg"></div>
       <img  alt="Mewtwo" width="200px" height="auto" src="../assets/pictures/Pokemon_Mewtwo.png">
-      
-      <p>Genetic engineering is dangereous. <br> Mewtwo is too powerful to be placed in confinement.</p>
+      <div id="spacer"></div>
+      <p>Genetic engineering is hazardous. <br> Mewtwo is too powerful to be placed in confinement.</p>
       <div id="spacerImg"></div>
     </div>
   </div>

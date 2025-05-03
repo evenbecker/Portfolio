@@ -129,9 +129,9 @@ import Todo1 from './components/Todo.vue'
 }
 
 button {
-  border-radius: 8px;
-  background-color: #8E728B; /* Green background */
-  border: 2px solid rgb(67, 69, 72); /* Green border */
+  border-radius: 0px;
+  background-color: #6f596d; /* Green background */
+  border: 3px solid #000B21; /* Green border */
   color: white; /* White text */
   padding: 0.6em 1.2em;
   cursor: pointer; /* Pointer/hand icon */
@@ -146,6 +146,9 @@ button {
 button:hover {
   background-color: #AB87AC;
 }
+#spacer{
+      height: 20px;
+    }
 /*
 #github{
   padding: 0.0em 0.2em;

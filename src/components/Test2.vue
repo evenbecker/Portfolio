@@ -1,6 +1,6 @@
 <template>
       <div class = "absol">
-        <h1>Some alt rock bands</h1>
+        <p class="verdanaBold">Some alt rock bands</p>
         <div class="fun-font">
           <p>Jumpdaf*ckup!
             <img style="display: inline; margin: 65px;" alt="guitar" width="200px" height="auto" src="../assets/pictures/guitar2.png">
