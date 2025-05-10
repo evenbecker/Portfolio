@@ -7,7 +7,7 @@
         
         <!--<p></p>-->
         <button @click="cmpnent ='Test1'">Home</button>
-        <button @click="cmpnent ='Links'">Links </button>
+        <button @click="cmpnent ='Links'">Projects </button>
         <button @click="cmpnent ='Todo1'">Todo list </button>
         <button @click="cmpnent ='Test_2'">Some alt rock bands</button>
         <button @click="cmpnent ='Bonus'">Bonus </button> 
@@ -79,9 +79,10 @@ import Todo1 from './components/Todo.vue'
 }
 
 #dna{
-  width:180px;
-  border: 2px solid black; 
-  margin-right: 28px;
+  width:216px;
+  opacity: 0.6;
+  /*border: 2px solid black; */
+  margin-right: 12px;
   margin-top: 4px;
 }
 .split {
@@ -100,7 +101,7 @@ import Todo1 from './components/Todo.vue'
   /*width: 30%;*/
   width:240px;
   /*max-width:280px;*/
-  background-color: #000B21;
+  background-color: #3a2f44;
   /*background-color: rgb(67, 69, 72);*/
 }
 #left_side {
@@ -109,7 +110,7 @@ import Todo1 from './components/Todo.vue'
   height: 100%;
   /*text-align: center;*/
   font-weight: bold;
-  background-color: #000B21;
+  background-color: #3a2f44;
 }
  
 .right {
@@ -131,7 +132,7 @@ import Todo1 from './components/Todo.vue'
 button {
   border-radius: 0px;
   background-color: #6f596d; /* Green background */
-  border: 3px solid #000B21; /* Green border */
+  border: 3px solid #3a2f44; /* Green border */
   color: white; /* White text */
   padding: 0.6em 1.2em;
   cursor: pointer; /* Pointer/hand icon */

@@ -1,16 +1,21 @@
 <template>
       <div class = "absol">
         <p class="verdanaBold">Some alt rock bands</p>
+        <p>All right reserved to the photographs/labels.</p>   
         <div class="fun-font">
           <p>Jumpdaf*ckup!
-            <img style="display: inline; margin: 65px;" alt="guitar" width="200px" height="auto" src="../assets/pictures/guitar2.png">
+            <img style="display: inline; margin: 45px;" alt="guitar" width="200px" height="auto" src="../assets/pictures/guitar2.png">
           </p>
         </div>
+             
         <h2>Flyleaf</h2>
         <img  alt="Flyleaf" width="700px" height="auto" src="../assets/pictures/flyleaf.jpg">
         <div id="spacer"></div>
         <h2>Deftones</h2>
         <img  alt="Deftones" width="700px" height="auto" src="../assets/pictures/deftones_2001.jpg">
+        <div id="spacer"></div>
+        <h2>Taproot</h2>
+        <img  alt="Taproot" width="700px" height="auto" src="../assets/pictures/Taproot-2023-Credit-Thom-Hazaert.jpg">
         <div id="spacer"></div>
         <h2>Head Phones President</h2>
         <img  alt="Head Phones President" width="820px" height="auto" src="../assets/pictures/headphonespresident.jpg">

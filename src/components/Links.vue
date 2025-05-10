@@ -1,13 +1,19 @@
 <template>
     <div class="centered-fixed">
              
-        <p class="verdanaHello">My Links                    
-        </p>        
-        <div id="spacer"></div>
+      <h4 class="verdanaH">My Projects                    
+      </h4>        
+      <!--<div id="spacer"></div>-->
+      <a href="https://even-audio-player.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
+        A simple audio player
+      </a>
+      <p></p> 
       <a href="https://search-for-pkgs.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
-      Angular project
+        A prototype to search for Linux packages
         </a>
-     <p></p> 
+      <div id="spacer"></div>
+     <h4 class="verdanaH">My Links                    
+     </h4> 
      <a href="https://orcid.org/0000-0002-2004-9472" target="_blank"><i class="fa fa-external-link"></i>
       OrcID
         </a>
@@ -27,7 +33,16 @@
       <!-- Add "scoped" attribute to limit CSS to this component only -->
       <style scoped>
     #spacer{
-      height: 40px;
+      height: 25px;
+    }
+    h4.verdanaH {
+    font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #454545;
+    /*line-height: 10pt;*/
+    /*text-align:center;*/
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
     }
       h3 {
         margin: 40px 0 0;
