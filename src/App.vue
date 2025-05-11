@@ -10,7 +10,7 @@
         <button @click="cmpnent ='Links'">Projects </button>
         <button @click="cmpnent ='Todo1'">Todo list </button>
         <button @click="cmpnent ='Test_2'">Some alt rock bands</button>
-        <button @click="cmpnent ='Bonus'">Bonus </button> 
+        <button @click="cmpnent ='Bonus'">Linux </button> 
         
         <div id="dna-container">
           <img id="dna" alt="dna" src="./assets/pictures/dna.png">
@@ -52,16 +52,16 @@ import Todo1 from './components/Todo.vue'
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
   */
 #app {
-  margin: 0 auto;
-  /*min-width: 1680px;*/
-  /*position: relative;*/
+  margin: 0 auto;    
   font-family: 'Verdana', cursive;
   /*background-color: rgb(74, 180, 130);*/
   /*padding: 0;
-  min-width: 925px;*/
+  /*position: relative;*/
+  /*min-width: 1680px;*/
 }
 
 /*

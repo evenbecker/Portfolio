@@ -35,15 +35,7 @@
     #spacer{
       height: 25px;
     }
-    h4.verdanaH {
-    font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    color: #454545;
-    /*line-height: 10pt;*/
-    /*text-align:center;*/
-    margin-top: 1.8rem;
-    margin-bottom: 1.8rem;
-    }
+
       h3 {
         margin: 40px 0 0;
       }

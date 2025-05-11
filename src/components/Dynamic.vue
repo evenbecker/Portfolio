@@ -39,6 +39,7 @@ import Links from './Links.vue'
 </script>
 <style scoped>
 .korn {
+    min-width: 410px;
     max-width: 450px; 
     position: absolute;
   top: 50%;
