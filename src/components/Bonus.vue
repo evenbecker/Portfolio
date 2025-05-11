@@ -2,16 +2,18 @@
     <div class="centered-fixed">
       <div id="article">
         <h4 class="verdanaH">Linux as a desktop OS</h4>                  
-        <p> Linux works nice on server, but on desktop, there are more things to consider: multimedia codecs, Wi-Fi drivers, GPU drivers, CPU microcode, printers drivers, ... Problems may happen. Never expect popular distros to make things working out-of-the-box as they pretend to do. Better learn the CLI and read the <a href="https://wiki.archlinux.org/title/Main_page">Arch wiki</a>. A good Linux user doesn't need GUI tools besides the installer.<br> Opinions about bloat are divided. <a href="https://www.gnu.org/distros/free-distros.en.html">FSF-approved</a> Trisquel GNU/Linux gives a good idea about what to avoid. Trisquel doesn't have a Gnome edition, so I don't use Gnome.</p>
+        <p> Linux works well on server. However on desktop, there are more things to consider: multimedia codecs, Wi-Fi drivers, GPU drivers (possible screen tearing/stuttering/flickering), CPU microcode, printers drivers, ... Problems may happen. Never expect popular distros to make things work out-of-the-box as they pretend to do. Better study the configuration files and CLI utilities by reading the <a href="https://wiki.archlinux.org/title/Main_page">Arch wiki</a> or the Gentoo wiki. A good Linux user doesn't need GUI tools besides the installer.<br> Opinions about bloat are divided. <a href="https://www.gnu.org/distros/free-distros.en.html">FSF-approved</a> Trisquel GNU/Linux gives a good idea about what to avoid. Trisquel doesn't have a Gnome edition, so I don't use Gnome.</p>
         <p>My opinion on some Linux distros:</p>
         <p>  <b>Ubuntu : </b>  Too much bloat preinstalled. Snap has terrible bloat. Telemetry is probably increasing. Some Ubuntu derivatives don't come with Snap: Bodhi Linux, Pop!_OS and Linux Mint for example. It may change.
         </p>
-        <p><b>Fedora Workstation :</b> It seems lean at first glance... but there are +700 MB of non-free firmware/drivers preinstalled. No minimal installer. Thus, according to the FSF, Fedora is bloated. There is also telemetry since Fedora 42. Silverblue/Kinoite is minimalistic but it's not suitable for everybody because updates are delivered as full images. That's time consuming and disk space consuming.
-        </p>
+        <p><b>Fedora Workstation :</b> No minimal installer available. Fedora has a strict policy of including only open source software in its official repositories... but there is a lot of non-free firmware/drivers preinstalled.  Fedora is therefore not FSF-approved. There is also telemetry since Fedora 42.</p>
+           <p id="kinoite">Silverblue/Kinoite: minimalistic but it's not suitable for everybody because updates are delivered as full images. That's time consuming and disk space consuming. Flatpak apps are recommended to keep the image small, but Flatpak apps have more issues (bugs and audio or storage permissions problems). Here is a quote from a devs chat: <q>Flatpak doesn’t allow important parts of the Chromium sandbox to work as it should. Chromium browsers and Electron apps distributed on Flathub all rely on a 3rd-party package called Zypak to trick Chromium into thinking its SUID sandbox is present.
+          </q></p>
         <p><b>Manjaro :</b> Unsigned packages from time to time. More and more bloat and telemetry.
         </p>
           <p><b>Debian :</b> No bloat but outdated software, especially browsers. No graphical minimal installer, only a CLI installer. Some Debian derivatives have a graphical minimal installer, namely PeppermintOS and Q4OS.
           </p>
+          <p id="kinoite">Debian testing: The debian testing branch can move very fast and many users have broken their system. Security patches are not immediately available. The unstable branch is more secure.</p>
             <p><b>MX Linux :</b> Not so bloated. Latest firefox available. For me it's Debian++. Very good distro.
             </p>
             <p><b>OpenSUSE Tumbleweed :</b> Zypper is slower and less reliable than dnf. Many Tumbleweed users have to use Flatpak because OpenSUSE multimedia codec repos are messy and can lead to dependencies issues. Packman repo is maintained by external people who don't follow SUSE policy. Some Packman RPMs might be malicious. 
@@ -68,6 +70,9 @@
   }
   #article{
     margin-bottom: 200px;
+  }
+  #kinoite{
+    margin-left: 40px;
   }
       .white {
         background-color: white;
