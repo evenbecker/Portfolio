@@ -47,6 +47,10 @@ body {
   
   /*color: white;*/
 }
+.fun-font {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.1em;
+}
 /*
 body {
   margin: 0;

@@ -7,7 +7,9 @@
             <img style="display: inline; margin: 45px;" alt="guitar" width="200px" height="auto" src="../assets/pictures/guitar2.png">
           </p>
         </div>
-             
+        <h2>Trapt</h2>
+        <img  alt="Trapt" width="50%" height="auto" src="../assets/pictures/Trapt.jpg">
+        <div id="spacer"></div>     
         <h2>Flyleaf</h2>
         <img  alt="Flyleaf" width="700px" height="auto" src="../assets/pictures/flyleaf.jpg">
         <div id="spacer"></div>
@@ -22,7 +24,9 @@
         <div id="spacer"></div>
         <h2>LeVeL</h2>
         <img  alt="LeVeL" width="660px" height="auto" src="../assets/pictures/LeVeL.jpg">
+        <div id="spacer"></div>
       </div>
+      
     </template>
     <script>
     export default {
@@ -47,9 +51,7 @@
   margin-left: 6px;
   text-align: center;
   }
-  .fun-font {
-  font-family: 'Brush Script MT', cursive;
-}
+
     h3 {
       margin: 40px 0 0;
     }

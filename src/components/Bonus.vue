@@ -2,7 +2,21 @@
     <div class="centered-fixed">
       <div id="article">
         <h4 class="verdanaH">Linux as a desktop OS</h4>                  
-        <p> Linux works well on server. However on desktop, there are more things to consider: multimedia codecs, Wi-Fi drivers, GPU drivers (possible screen tearing/stuttering/flickering), CPU microcode, printers drivers, ... Problems may happen. Never expect popular distros to make things work out-of-the-box as they pretend to do. Better study the configuration files and CLI utilities by reading the <a href="https://wiki.archlinux.org/title/Main_page">Arch wiki</a> or the Gentoo wiki. A good Linux user doesn't need GUI tools besides the installer.<br> Opinions about bloat are divided. <a href="https://www.gnu.org/distros/free-distros.en.html">FSF-approved</a> Trisquel GNU/Linux gives a good idea about what to avoid. Trisquel doesn't have a Gnome edition, so I don't use Gnome.</p>
+        <p> Linux works well on server. However on desktop, there are more things to consider: multimedia codecs, Wi-Fi drivers, GPU drivers (possible screen tearing/stuttering/flickering), CPU microcode, printers drivers, ... Problems may happen. Never expect popular distros to make things work out-of-the-box as they pretend to do. Better study the configuration files and CLI utilities by reading the <a href="https://wiki.archlinux.org/title/Main_page">Arch wiki</a> or the Gentoo wiki. A good Linux user doesn't need GUI tools besides the installer.<br> Opinions about bloat are divided. <a href="https://www.gnu.org/distros/free-distros.en.html">FSF-approved</a> Trisquel GNU/Linux gives a good idea about what to avoid. Trisquel doesn't have a Gnome edition, so I don't use Gnome. My favorite distro is Void Linux.</p>
+        
+            
+            <div class="myrow">
+              <div class="column padding">
+                <p class="fun-font ">click here to enter the void</p>
+              </div>
+            
+              <div class="column">
+                <a href="https://voidlinux.org/" target="_blank">
+                  <img src="../assets/pictures/Void_Linux_logo.svg" class="logo" alt="Void logo" />
+                </a>                
+              </div>
+            </div>
+           
         <p>My opinion on some Linux distros:</p>
         <p>  <b>Ubuntu : </b>  Too much bloat preinstalled. Snap has terrible bloat. Telemetry is probably increasing. Some Ubuntu derivatives don't come with Snap: Bodhi Linux, Pop!_OS and Linux Mint for example. It may change.
         </p>
@@ -74,10 +88,33 @@
   #kinoite{
     margin-left: 40px;
   }
-      .white {
-        background-color: white;
-        left: 0;
-        width:100%;
-        text-align: center;
-      }
+    .white {
+      background-color: white;
+      left: 0;
+      width:100%;
+      text-align: center;
+    }
+.myrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+  
+}
+.logo {
+  width: 80%;
+  /*height: 6em;*/
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #72b76faa);
+}
+.padding {
+  padding-left: 10px;
+}
       </style>
