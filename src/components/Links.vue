@@ -4,6 +4,10 @@
       <h4 class="verdanaH">My Projects                    
       </h4>        
       <!--<div id="spacer"></div>-->
+      <a href="https://even-pokemon-2001.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
+        A Pokédex from 2001
+      </a>
+      <p></p> 
       <a href="https://even-audio-player.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A simple audio player
       </a>
