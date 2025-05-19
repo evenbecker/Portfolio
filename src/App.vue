@@ -6,11 +6,11 @@
         <!--<a href="https://github.com/evenbecker" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>-->
         
         <!--<p></p>-->
-        <button @click="cmpnent ='Test1'">Home</button>
-        <button @click="cmpnent ='Links'">Projects </button>
-        <button @click="cmpnent ='Todo1'">Todo list </button>
-        <button @click="cmpnent ='Test_2'">Some alt rock bands</button>
-        <button @click="cmpnent ='Bonus'">Linux </button> 
+        <button class="mybutton" @click="cmpnent ='Test1'">Home</button>
+        <button class="mybutton" @click="cmpnent ='Links'">Projects </button>
+        <button class="mybutton" @click="cmpnent ='Todo1'">Todo list </button>
+        <button class="mybutton" @click="cmpnent ='Test_2'">Some alt rock bands</button>
+        <button class="mybutton" @click="cmpnent ='Bonus'">Linux </button> 
         
         <div id="dna-container">
           <img id="dna" alt="dna" src="./assets/pictures/dna.png">
@@ -129,24 +129,53 @@ import Todo1 from './components/Todo.vue'
   text-align: center;
 }
 
-button {
+.mybutton {
   border-radius: 0px;
-  background-color: #6f596d; /* Green background */
-  border: 3px solid #3a2f44; /* Green border */
+  background-color: #6f596d;   
+  border: 3px solid #3a2f44; 
   color: white; /* White text */
   padding: 0.6em 1.2em;
   cursor: pointer; /* Pointer/hand icon */
   width: 100%; /* Set a width if needed */
-  display: block; /* Make the buttons appear below each other */
+  /*display: block;  Make the buttons appear below each other 
   white-space: nowrap; 
-  min-width: auto;
+  min-width: auto;*/  
+  position: relative;
+  overflow: hidden;
   
-  
+}
+#bidon{
+  color:hsl(305, 11%, 39%); /* 111,89,109 */
+  background: rgba( 111, 89 , 109, 1 );
 }
 /* Add a background color on hover */
-button:hover {
-  background-color: #AB87AC;
+.mybutton:hover {
+  background-color: #3a2f44;/*hsl(305, 11%, 55%);*/
+  /*background-image: linear-gradient(to right, hsl(305, 11%, 65%), hsl(305, 11%, 39%) );*/ 
+  transition: 700ms;
 }
+
+.mybutton:after {
+  content: "";
+  background: hsl(305, 11%, 65%);
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 1.0s
+}
+
+.mybutton:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}  
+
+
 #spacer{
       height: 20px;
     }

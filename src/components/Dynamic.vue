@@ -11,7 +11,8 @@
     </div>
     <div v-if="cmpnent=='Test_2'">
         <!--<p>The v-if Test_2 works</p>-->
-        <Test_2></Test_2>
+        <Test_2 :myprop="load"></Test_2>
+       <!-- < this.load = !this.load>-->
     </div>
     <div v-if="cmpnent=='Links'">
         <!--<p>The v-if Bonus works</p>-->
@@ -28,14 +29,29 @@ import Test_2 from './Test2.vue'
 import Todo1 from './Todo.vue'
 import Bonus from './Bonus.vue'
 import Links from './Links.vue'
-    export default {
+
+export default {
       name: 'Dynamic',
       components: {
         Test1,Test_2,Todo1,Bonus,Links
   },
       props: ['cmpnent'],
+      data () {
+        return {
+            load: true,
+            
+        }
+    },
+    watch: { cmpnent: function(newVal, oldVal) { // watch it
+        //console.log('Prop called cmpnent: changed: ', newVal, ' | was: ', oldVal);
+        if (newVal == "Test_2"){
+            setTimeout(() => this.load = !this.load, 200);
+            //this.load = !this.load;
+           
+        }        
+        }                        
     }
-
+}
 </script>
 <style scoped>
 .korn {
