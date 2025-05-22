@@ -1,11 +1,11 @@
 <template>
     
     <!--<p>The dynamic component prints : {{cmpnent}}</p>-->
-    <div class="korn" v-if="cmpnent=='Todo1'">
+    <div class="korn mytop" v-if="cmpnent=='Todo1'">
         <!--<p>The v-if Todo1 works</p>-->
         <Todo1></Todo1>
     </div>
-    <div v-if="cmpnent=='Test1'">
+    <div class="mytop" v-if="cmpnent=='Test1'">
         <!--<p>The v-if Test1 works</p>-->
        <Test1></Test1>
     </div>
@@ -15,12 +15,16 @@
        <!-- < this.load = !this.load>-->
     </div>
     <div v-if="cmpnent=='Links'">
-        <!--<p>The v-if Bonus works</p>-->
+        
         <Links></Links>
     </div>
     <div v-if="cmpnent=='Bonus'">
         <!--<p>The v-if Bonus works</p>-->
         <Bonus></Bonus>
+    </div>
+    <div class="likeFlex mytop" v-if="cmpnent=='Validation'">
+        
+        <Validation></Validation>
     </div>
 </template>  
 <script>
@@ -29,11 +33,12 @@ import Test_2 from './Test2.vue'
 import Todo1 from './Todo.vue'
 import Bonus from './Bonus.vue'
 import Links from './Links.vue'
+import Validation from './Validation.vue'
 
 export default {
       name: 'Dynamic',
       components: {
-        Test1,Test_2,Todo1,Bonus,Links
+        Test1,Test_2,Todo1,Bonus,Links,Validation
   },
       props: ['cmpnent'],
       data () {
@@ -70,4 +75,15 @@ export default {
     max-width: 450px; 
     */
   }
+.likeFlex{
+    margin: 0 auto;
+    padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #FAFAFF;
+  place-items: center;
+}  
+.mytop{
+    padding-top: 20px;
+}
 </style>

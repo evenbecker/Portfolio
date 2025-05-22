@@ -4,10 +4,11 @@
       <div id="left_side">
         <!--<p style="color:white; font-style:italic;">Github:</p>-->  
         <!--<a href="https://github.com/evenbecker" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>-->
-        
+        <div id="spacer"></div>
         <!--<p></p>-->
         <button class="mybutton" @click="cmpnent ='Test1'">Home</button>
         <button class="mybutton" @click="cmpnent ='Links'">Projects </button>
+        <button class="mybutton flashy" @click="cmpnent ='Validation'">Form validation <span id="flashy">  new!</span> </button>
         <button class="mybutton" @click="cmpnent ='Todo1'">Todo list </button>
         <button class="mybutton" @click="cmpnent ='Test_2'">Some alt rock bands</button>
         <button class="mybutton" @click="cmpnent ='Bonus'">Linux </button> 
@@ -91,9 +92,7 @@ import Todo1 from './components/Todo.vue'
   position: fixed;
   z-index:1;
   top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
- 
+  overflow-x: hidden;   
 }
 
 .left {
@@ -174,8 +173,13 @@ import Todo1 from './components/Todo.vue'
   opacity: 1;
   transition: 0s
 }  
-
-
+#flashy{
+  color: hsl(272, 83%, 91%);
+  font-size: 1.4em;
+}
+.flashy{
+  padding: 0.4em 1.2em;
+}
 #spacer{
       height: 20px;
     }
