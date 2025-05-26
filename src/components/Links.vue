@@ -4,16 +4,24 @@
       <h4 class="verdanaH">My Projects                    
       </h4>        
       <!--<div id="spacer"></div>-->
+      <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://calendar-game.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
+        A Calendar Game
+      </a><a href="https://github.com/evenbecker/calendar-game" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
+      </a>
+      <p></p> 
       <a href="https://even-pokemon-2001.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A Pokédex from 2001
+      </a><a href="https://github.com/evenbecker/pokemon-2001" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
       </a>
       <p></p> 
       <a href="https://even-audio-player.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A simple audio player
+      </a><a href="https://github.com/evenbecker/simple-audio-player" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
       </a>
       <p></p> 
       <a href="https://search-for-pkgs.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A prototype to search for Linux packages
+        </a><a href="https://github.com/evenbecker/search-for-pkgs" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
         </a>
       <div id="spacer"></div>
      <h4 class="verdanaH">My Links                    
@@ -57,6 +65,15 @@
       a:hover {
         color: #8E728B;
       }
+      i.myInfo {
+        color: hsl(306, 11%, 44%);
+        font-size:26px;
+        
+      }
+      i.myInfo:hover {
+        color: hsl(306, 11%, 30%);
+      }
+
     .centered-fixed {
       /*position: fixed;
       z-index:1;
@@ -64,7 +81,10 @@
   
       text-align: center;
   }
-  
+  #flashy2{
+  color: hsl(266, 91%, 65%);
+  font-size: 1.4em;
+}
       .white {
         background-color: white;
         left: 0;
