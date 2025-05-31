@@ -4,7 +4,11 @@
       <h4 class="verdanaH">My Projects                    
       </h4>        
       <!--<div id="spacer"></div>-->
-      <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://calendar-game.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
+      <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://table-dragonball.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
+        A table to use the Dragon Ball API
+     </a>
+      <p></p> 
+      <a href="https://calendar-game.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A Calendar Game
       </a><a href="https://github.com/evenbecker/calendar-game" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
       </a>
