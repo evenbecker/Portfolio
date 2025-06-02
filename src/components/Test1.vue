@@ -7,17 +7,52 @@
         <img style="display: inline; margin: 0 5px;" alt="Vue logo" width="30px" height="auto" src="../assets/logo.svg">
         
       </p>
-      <br>
+     
       
     </div>
-    <div class="white">
+    <!--<div class="white">
       <div id="spacerImg"></div>
       <img  alt="Mewtwo" width="200px" height="auto" src="../assets/pictures/Pokemon_Mewtwo.png">
       <div id="spacer"></div>
       <p>Genetic engineering is hazardous. <br> Mewtwo is too powerful to be placed in confinement.</p>
       <div id="spacerImg"></div>
+    </div>-->
+  <div id="mywhite" class="container-fluid p-5">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active cimg" data-bs-interval="3000">
+          <img src="../assets/pictures/Pokemon_Mewtwo.png" class="d-block" alt="Mewtwo">
+          <div class="position-relative text-center"> 
+            <p></p>           
+            <p>Genetic engineering is hazardous. Mewtwo is too powerful to be placed in confinement.</p>
+          </div>
+        </div>
+        <div class="carousel-item cimg">
+          <img src="../assets/pictures/0144Articuno.png" class="d-block" alt="...">
+          <div class="position-relative text-center">            
+            <p></p><p>#144  Articuno </p>
+            
+          </div>
+        </div>
+        <div class="carousel-item cimg">
+          <img src="../assets/pictures/0123Scyther.png" class="d-block" alt="...">
+          <div class="position-relative text-center">            
+            <p></p><p>#123  Scyther </p>
+            
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
+</div>
 </template>
 <script>
     export default {
@@ -60,8 +95,19 @@
     }
     p.pre {
   white-space: pre;
-}
-#spacerImg{
+    }
+    #spacerImg{
       height: 30px;
     }
+   #mywhite{
+    background-color: white;
+   }
+    .carousel-inner > .carousel-item > img{ margin:auto; }
+
+    .cimg img {
+width: auto;
+height: 345px;
+max-height: 345px;
+}
+
     </style>
