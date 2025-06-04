@@ -18,7 +18,7 @@
       </a><a href="https://github.com/evenbecker/pokemon-2001" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
       </a>
       <p></p> 
-      <a href="https://even-audio-player.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
+      <span id="flashy2"> new version!&nbsp;&nbsp;</span><a href="https://even-audio-player.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A simple audio player
       </a><a href="https://github.com/evenbecker/simple-audio-player" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
       </a>
@@ -27,6 +27,7 @@
         A prototype to search for Linux packages
         </a><a href="https://github.com/evenbecker/search-for-pkgs" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
         </a>
+        
       <div id="spacer"></div>
      <h4 class="verdanaH">My Links                    
      </h4> 
@@ -67,7 +68,7 @@
         color: black;
       }
       a:hover {
-        color: #8E728B;
+        color: hsl(306, 11%, 44%);
       }
       i.myInfo {
         color: hsl(306, 11%, 44%);
@@ -86,13 +87,8 @@
       text-align: center;
   }
   #flashy2{
-  color: hsl(266, 91%, 65%);
+  color: #E0513B;
   font-size: 1.4em;
 }
-      .white {
-        background-color: white;
-        left: 0;
-        width:100%;
-        text-align: center;
-      }
+      
       </style>

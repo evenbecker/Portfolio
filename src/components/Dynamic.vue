@@ -1,31 +1,37 @@
 <template>
     
     <!--<p>The dynamic component prints : {{cmpnent}}</p>-->
-    <div class="korn mytop" v-if="cmpnent=='Todo1'">
+    <div class="mytop likeFlex" v-if="cmpnent=='Todo1'">
         <!--<p>The v-if Todo1 works</p>-->
         <Todo1></Todo1>
+        <div class="bigSpacer"></div>
     </div>
-    <div class="mytop" v-if="cmpnent=='Test1'">
+    <div class="mytop likeFlex" v-if="cmpnent=='Test1'">
         <!--<p>The v-if Test1 works</p>-->
        <Test1></Test1>
+       <div class="bigSpacer"></div>
     </div>
-    <div v-if="cmpnent=='Test_2'">
+    <div class="likeFlex" v-if="cmpnent=='Test_2'">
         <!--<p>The v-if Test_2 works</p>-->
         <Test_2 :myprop="load"></Test_2>
+        <div class="bigSpacer"></div>
        <!-- < this.load = !this.load>-->
     </div>
-    <div v-if="cmpnent=='Links'">
+    <div class="likeFlex" v-if="cmpnent=='Links'">
         
         <Links></Links>
+        <div class="bigSpacer"></div>
     </div>
-    <div v-if="cmpnent=='Bonus'">
+    <div class="likeFlex" v-if="cmpnent=='Bonus'">
         <!--<p>The v-if Bonus works</p>-->
         <Bonus></Bonus>
+        
     </div>
-    <div class="likeFlex mytop" v-if="cmpnent=='Validation'">
+    <div id="startpageColor" class="likeFlex mytop" v-if="cmpnent=='Validation'">
         
         <Validation></Validation>
     </div>
+    
 </template>  
 <script>
 import Test1 from './Test1.vue'
@@ -59,31 +65,19 @@ export default {
 }
 </script>
 <style scoped>
-.korn {
-    min-width: 410px;
-    max-width: 450px; 
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-    /*
-    text-align: center;
-    margin-left: 90px;
-    margin-right: 150px;
-    margin-top: 20px;
-    background-color: gold;
-    max-width: 450px; 
-    */
-  }
+
 .likeFlex{
     margin: 0 auto;
     padding: 2rem;
   display: flex;
   flex-direction: column;
-  background-color: #FAFAFF;
+  
   place-items: center;
 }  
 .mytop{
     padding-top: 20px;
+}
+#startpageColor{
+    background-color: #FAFAFF;
 }
 </style>

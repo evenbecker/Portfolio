@@ -1,13 +1,13 @@
 <template>
-    
-        <div class="container-fluid p-4">
+    <div class="spacer"></div>
+        <div class="container-fluid p-4 w-50">
             <label>Enter your name:</label>
             <input v-model="name" class="form-control" />
         </div>
         <h4 class="p-2 custom-margin">
             {{name}}'s To Do List
         </h4>
-        <div class="container-fluid p-4">
+        <div class="container-fluid p-4 w-50">
             <div class="row" v-if="filteredTasks.length == 0">
                 <div class="col text-center">
                     <b>Nothing to do. Let's listen to some music.</b>
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-    
+        <div class="spacer"></div>
 </template>
 
 <script>

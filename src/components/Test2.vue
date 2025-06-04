@@ -108,9 +108,7 @@
   background-color: hsl(305, 11%, 55%);
   border-radius: 10px;
 }
-    div.spacer{
-      height: 40px;
-    }
+   
     #barSpacer{
       height: 150px;
     }
@@ -119,21 +117,16 @@
     }
     
     div.absol{         
-     position: absolute;
+     /*position: absolute;*/
   margin-left: 6px;
   text-align: center;
  
   }
   #intro{
-    margin: auto;
+    /*margin: auto;*/
     text-align: center;
   }
-  .centerImg{
-      background-color: rgb(243, 210, 169);
-      /*display: block;
-      position: relative;*/
-      text-align: center;
-  }
+ 
     h3 {
       margin: 40px 0 0;
     }

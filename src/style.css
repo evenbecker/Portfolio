@@ -51,6 +51,12 @@ body {
   font-family: 'Brush Script MT', cursive;
   font-size: 1.1em;
 }
+div.spacer{
+  height: 40px;
+}
+.bigSpacer{
+  height: 400px;
+}
 /*
 body {
   margin: 0;

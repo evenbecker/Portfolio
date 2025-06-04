@@ -1,5 +1,5 @@
 <template>
-    <div class="centered-fixed">
+    <div class="centered-marge">
       <div id="article">
         <h4 class="verdanaH">Linux as a desktop OS</h4>                  
         <p> Linux works well on server. However on desktop, there are more things to consider: multimedia codecs, Wi-Fi drivers, GPU drivers (possible screen tearing/stuttering/flickering), CPU microcode, printers drivers, ... Problems may happen. Never expect popular distros to make things work out-of-the-box as they pretend to do. Better study the configuration files and CLI utilities by reading the <a href="https://wiki.archlinux.org/title/Main_page">Arch wiki</a> or the Gentoo wiki. A good Linux user doesn't need GUI tools besides the installer.<br> Opinions about bloat are divided. <a href="https://www.gnu.org/distros/free-distros.en.html">FSF-approved</a> Trisquel GNU/Linux gives a good idea about what to avoid. Trisquel doesn't have a Gnome edition, so I don't use Gnome. My favorite distro is Void Linux.</p>
@@ -68,19 +68,11 @@
       a {
         color: #6f596d;
       }
-    .centered-fixed {
-      /*position: fixed;
-      z-index:1;
-      top: 0;*/
-      
+    .centered-marge {            
       /*width: 80%;*/
-      /*text-align: center;*/
-      min-width: 510px;
-    max-width: 750px; 
-    position: absolute;
-
-  left: 50%;
-  transform: translate(-50%, 0);
+      /*text-align: center;*/            
+    max-width: 650px; /*750 */
+   /* position: absolute;*/  
   }
   #article{
     margin-bottom: 200px;
@@ -88,12 +80,7 @@
   #kinoite{
     margin-left: 40px;
   }
-    .white {
-      background-color: white;
-      left: 0;
-      width:100%;
-      text-align: center;
-    }
+    
 .myrow {
   display: flex;
   justify-content: center;

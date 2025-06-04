@@ -1,29 +1,32 @@
 <template>
   <div id="app">
-    <div class="split left">   
-      <div id="left_side">
+    <div class="container-fluid overflow-hidden">
+      <div class="row">
+    <div id="menu" class="col-2">   
+      
         <!--<p style="color:white; font-style:italic;">Github:</p>-->  
         <!--<a href="https://github.com/evenbecker" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>-->
         <div id="spacer"></div>
         <!--<p></p>-->
+        <div id="group">
         <button class="mybutton" @click="cmpnent ='Test1'">Home</button>
         <button class="mybutton" @click="cmpnent ='Links'">Projects </button>
-        <button class="mybutton flashy" @click="cmpnent ='Validation'">Form validation <span id="flashy">  new!</span> </button>
+        <button class="mybutton" @click="cmpnent ='Validation'">Form validation  </button>
         <button class="mybutton" @click="cmpnent ='Todo1'">Todo list </button>
-        <button class="mybutton" @click="cmpnent ='Test_2'">Some alt rock bands</button>
-        <button class="mybutton" @click="cmpnent ='Bonus'">Linux </button> 
-        
-        <div id="dna-container">
-          <img id="dna" alt="dna" src="./assets/pictures/dna.png">
+        <button class="mybutton" @click="cmpnent ='Test_2'"> Alt rock bands</button>
+        <button class="mybutton" @click="cmpnent ='Bonus'">Linux </button>   
         </div>
-      </div>    
-     
-    
-    </div>
-    <div class="split right">
+                   
+        <img class="img-responsive" id="dna" alt="dna" src="./assets/pictures/hexagon.jpg">       
+           
+    </div>    
+                 
+    <div class="col-10 mybcolor">
       
       <Dynamic v-bind:cmpnent="cmpnent"></Dynamic>
     </div>
+    </div>
+  </div>
   </div>
 </template>
   <script>
@@ -59,89 +62,42 @@ import Todo1 from './components/Todo.vue'
 #app {
   margin: 0 auto;    
   font-family: 'Verdana', cursive;
-  /*background-color: rgb(74, 180, 130);*/
-  /*padding: 0;
-  /*position: relative;*/
-  /*min-width: 1680px;*/
+ 
 }
-
 /*
 #app {
     display: flex;
-    flex-direction: column;
+      font-family: 'Verdana', cursive;
+    
     justify-content: center;
     align-items: center;
   }
 */
-#dna-container{
-  float:right;
-  /*margin: 0 auto;*/
-  /*background-color: rgb(74, 180, 130);*/
-}
-
 #dna{
-  width:216px;
-  opacity: 0.6;
-  /*border: 2px solid black; */
-  margin-right: 12px;
-  margin-top: 4px;
+  opacity: 0.5;   
+    width: 100%;
+    object-fit: cover;    
+    filter: hue-rotate(246deg); 
 }
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index:1;
-  top: 0;
-  overflow-x: hidden;   
-}
-
 .left {
-  left: 0;
-  /*width: 30%;*/
-  width:240px;
+  flex: 20%;
   /*max-width:280px;*/
   background-color: #3a2f44;
-  /*background-color: rgb(67, 69, 72);*/
-}
-#left_side {
-  left: 0;
-  width: 100%;/*98% */
-  height: 100%;
-  /*text-align: center;*/
-  font-weight: bold;
-  background-color: #3a2f44;
-}
- 
-.right {
-  right: 0;
-  float:left;
-  /*width:fit-content;*/
-  width: calc(100% - 240px);
-  /*background-color: rgb(223, 238, 154);*/
   background-color: rgb(249, 246, 248);
-}  
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+  /*background-color: rgb(67, 69, 72);*/
+} 
+
 
 .mybutton {
+  width: 100%;
   border-radius: 0px;
   background-color: #6f596d;   
   border: 3px solid #3a2f44; 
   color: white; /* White text */
   padding: 0.6em 1.2em;
-  cursor: pointer; /* Pointer/hand icon */
-  width: 100%; /* Set a width if needed */
-  /*display: block;  Make the buttons appear below each other 
-  white-space: nowrap; 
-  min-width: auto;*/  
+  cursor: pointer; /* Pointer/hand icon */ 
   position: relative;
-  overflow: hidden;
-  
+  overflow: hidden;      
 }
 #bidon{
   color:hsl(305, 11%, 39%); /* 111,89,109 */
@@ -166,7 +122,9 @@ import Todo1 from './components/Todo.vue'
   opacity: 0;
   transition: all 1.0s
 }
-
+.mybcolor{
+  background-color: rgb(249, 246, 248);
+}
 .mybutton:active:after {
   padding: 0;
   margin: 0;
@@ -174,7 +132,7 @@ import Todo1 from './components/Todo.vue'
   transition: 0s
 }  
 #flashy{
-  color: hsl(272, 83%, 91%);
+  color: hsl(12, 87%, 82%);
   font-size: 1.4em;
 }
 .flashy{
@@ -183,6 +141,12 @@ import Todo1 from './components/Todo.vue'
 #spacer{
       height: 20px;
     }
+#menu{
+  background-color: #3a2f44;
+}    
+#group{
+  margin-bottom: 1rem;
+}
 /*
 #github{
   padding: 0.0em 0.2em;

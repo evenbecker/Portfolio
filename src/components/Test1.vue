@@ -10,31 +10,27 @@
      
       
     </div>
-    <!--<div class="white">
+    <!--
       <div id="spacerImg"></div>
-      <img  alt="Mewtwo" width="200px" height="auto" src="../assets/pictures/Pokemon_Mewtwo.png">
-      <div id="spacer"></div>
-      <p>Genetic engineering is hazardous. <br> Mewtwo is too powerful to be placed in confinement.</p>
-      <div id="spacerImg"></div>
-    </div>-->
-  <div id="mywhite" class="container-fluid p-5">
+    -->
+  <div id="mywhite" class="container-fluid p-5 w-100">
     <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active cimg" data-bs-interval="3000">
+        <div class="carousel-item active cimg" data-bs-interval="2000">
           <img src="../assets/pictures/Pokemon_Mewtwo.png" class="d-block" alt="Mewtwo">
           <div class="position-relative text-center"> 
             <p></p>           
             <p>Genetic engineering is hazardous. Mewtwo is too powerful to be placed in confinement.</p>
           </div>
         </div>
-        <div class="carousel-item cimg">
+        <div class="carousel-item cimg" data-bs-interval="2000">
           <img src="../assets/pictures/0144Articuno.png" class="d-block" alt="...">
           <div class="position-relative text-center">            
             <p></p><p>#144  Articuno </p>
             
           </div>
         </div>
-        <div class="carousel-item cimg">
+        <div class="carousel-item cimg" data-bs-interval="2000">
           <img src="../assets/pictures/0123Scyther.png" class="d-block" alt="...">
           <div class="position-relative text-center">            
             <p></p><p>#123  Scyther </p>
@@ -82,7 +78,7 @@
     /*position: fixed;
     z-index:1;
     top: 0;*/
-
+    width:100%;
     text-align: center;
 }
 
