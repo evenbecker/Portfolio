@@ -31,6 +31,13 @@
           </div>
         </div>
         <div class="carousel-item cimg" data-bs-interval="2000">
+          <img src="../assets/pictures/0115Kangaskhan.png" class="d-block" alt="...">
+          <div class="position-relative text-center">            
+            <p></p><p>#115  Kangaskhan </p>
+            
+          </div>
+        </div>
+        <div class="carousel-item cimg" data-bs-interval="2000">
           <img src="../assets/pictures/0123Scyther.png" class="d-block" alt="...">
           <div class="position-relative text-center">            
             <p></p><p>#123  Scyther </p>

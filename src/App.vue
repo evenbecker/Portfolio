@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     
-      <div class="row default-container">
+      <div class="row default-container g-0">
     <div id="menu-col" class="col-2">   
       <div id="dark-menu">
         <!--<p style="color:white; font-style:italic;">Github:</p>-->  
@@ -158,7 +158,8 @@ import Todo1 from './components/Todo.vue'
 #dark-menu{
   background-color: #3a2f44;
   width:100%;
-  margin-left: 0.75rem;
+  /*margin-left: 0.75rem;
+  margin-right: 0.75rem;*/
 }
 #menu-col{
   background-color: #3a2f44;
