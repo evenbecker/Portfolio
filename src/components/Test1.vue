@@ -3,12 +3,9 @@
     <div>
       <p class="verdanaHello" >Hello, I'm Even Becker</p>
       <p class="verdanaBold" >Welcome to my website</p>
-      <p>made with 
-        <img style="display: inline; margin: 0 5px;" alt="Vue logo" width="30px" height="auto" src="../assets/logo.svg">
-        
-      </p>
-     
-      
+      <p id="phrasePadding">
+        The theme is inspired by Mewtwo. I never looked beyond generation II because it has become inconsistent.        
+      </p>           
     </div>
     <!--
       <div id="spacerImg"></div>
@@ -88,7 +85,10 @@
     width:100%;
     text-align: center;
 }
-
+#phrasePadding{
+  padding: 1rem 5rem;
+  color: hsl(305, 11%, 32%);
+}
     .white {
       background-color: white;
       left: 0;

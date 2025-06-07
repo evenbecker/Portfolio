@@ -185,8 +185,8 @@ import Todo1 from './components/Todo.vue'
   min-height: 3vh;
   display: flex;
   justify-content: center;
-  color: hsl(0, 0%, 90%);
-  background-color: hsl(305, 11%, 39%);
+  color: hsl(0, 0%, 93%);
+  background-color: hsl(305, 11%, 43%);
 }
 #footer > p {
   margin-top: 0.5rem;
