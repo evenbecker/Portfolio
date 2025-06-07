@@ -4,23 +4,23 @@
     <div class="mytop likeFlex" v-if="cmpnent=='Todo1'">
         <!--<p>The v-if Todo1 works</p>-->
         <Todo1></Todo1>
-        <div class="bigSpacer"></div>
+        <!--<div class="bigSpacer"></div>-->
     </div>
     <div class="mytop likeFlex" v-if="cmpnent=='Test1'">
         <!--<p>The v-if Test1 works</p>-->
        <Test1></Test1>
-       <div class="bigSpacer"></div>
+       <!--<div class="bigSpacer"></div>-->
     </div>
     <div class="likeFlex" v-if="cmpnent=='Test_2'">
         <!--<p>The v-if Test_2 works</p>-->
         <Test_2 :myprop="load"></Test_2>
-        <div class="bigSpacer"></div>
+       <!-- <div class="bigSpacer"></div>-->
        <!-- < this.load = !this.load>-->
     </div>
     <div class="likeFlex" v-if="cmpnent=='Links'">
         
         <Links></Links>
-        <div class="bigSpacer"></div>
+        <!--<div class="bigSpacer"></div>-->
     </div>
     <div class="likeFlex" v-if="cmpnent=='Bonus'">
         <!--<p>The v-if Bonus works</p>-->

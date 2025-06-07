@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div class="container-fluid overflow-hidden">
-      <div class="row">
-    <div id="menu" class="col-2">   
-      
+    
+      <div class="row default-container">
+    <div id="menu-col" class="col-2">   
+      <div id="dark-menu">
         <!--<p style="color:white; font-style:italic;">Github:</p>-->  
         <!--<a href="https://github.com/evenbecker" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>-->
         <div id="spacer"></div>
@@ -18,7 +18,7 @@
         </div>
                    
         <img class="img-responsive" id="dna" alt="dna" src="./assets/pictures/hexagon.jpg">       
-           
+      </div>
     </div>    
                  
     <div class="col-10 mybcolor">
@@ -26,6 +26,12 @@
       <Dynamic v-bind:cmpnent="cmpnent"></Dynamic>
     </div>
     </div>
+  
+  <div id="footer">
+    <p>made with 
+        <img style="display: inline; margin: 0 3px;" alt="Vue logo" width="26px" height="auto" src="./assets/logo.svg">
+        
+      </p>
   </div>
   </div>
 </template>
@@ -60,7 +66,8 @@ import Todo1 from './components/Todo.vue'
 }
   */
 #app {
-  margin: 0 auto;    
+  /*margin: 0 auto;*/   
+ 
   font-family: 'Verdana', cursive;
  
 }
@@ -91,7 +98,7 @@ import Todo1 from './components/Todo.vue'
 .mybutton {
   width: 100%;
   border-radius: 0px;
-  background-color: #6f596d;   
+  background-color: hsl(305, 11%, 39%);   
   border: 3px solid #3a2f44; 
   color: white; /* White text */
   padding: 0.6em 1.2em;
@@ -141,7 +148,19 @@ import Todo1 from './components/Todo.vue'
 #spacer{
       height: 20px;
     }
-#menu{
+/*
+#dark-menu{
+  background-color: #3a2f44;
+  width:100%;
+  margin-right: -1.5rem;
+}
+*/
+#dark-menu{
+  background-color: #3a2f44;
+  width:100%;
+  margin-left: 0.75rem;
+}
+#menu-col{
   background-color: #3a2f44;
 }    
 #group{
@@ -151,4 +170,25 @@ import Todo1 from './components/Todo.vue'
 #github{
   padding: 0.0em 0.2em;
 }*/
+.default-container {
+    background: #c4dffa;
+    padding: 0px 0px;
+    min-height: 97vh;
+    overflow-y: auto;
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+}
+#footer{
+  width:100%;
+  min-height: 3vh;
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 0%, 90%);
+  background-color: hsl(305, 11%, 39%);
+}
+#footer > p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 </style>
