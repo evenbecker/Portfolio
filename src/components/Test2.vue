@@ -1,6 +1,6 @@
 <template>      
-      <div id="intro"> 
-        <div v-show="loadin == true"><!--loadin == true-->
+       
+        <div id="intro" v-show="loadin == true"><!--loadin == true-->
           <div id="barSpacer"></div>
           <h5> loading ...</h5>
           <div id="myProgress">
@@ -13,7 +13,7 @@
                     
           <div id="megaSpacer"></div>
         </div>
-      </div>
+      
       <div class = "absol">
         <p class="verdanaBold">Some alt rock bands</p>
         <p>All right reserved to the photographs/labels.</p>   
@@ -22,6 +22,9 @@
             <img style="display: inline; margin: 45px;" alt="guitar" width="200px" height="auto" src="../assets/pictures/guitar2.png">
           </p>
         </div>
+        <h2>Human Waste Project</h2>
+        <img  alt="Human Waste Project" width="65%" height="auto" src="../assets/pictures/HumanWP.webp">
+        <div class="spacer"></div>  
         <h2>Trapt</h2>
         <img  alt="Trapt" width="50%" height="auto" src="../assets/pictures/Trapt.jpg">
         <div class="spacer"></div>     
@@ -97,7 +100,7 @@
     <style scoped>
 #myProgress {
   margin: auto;
-  width: 40%;/*100%*/
+  width: 40%;
   background-color: #ddd;
   border-radius: 10px;
 }
@@ -125,6 +128,7 @@
   #intro{
     /*margin: auto;*/
     text-align: center;
+    width: 100%;
   }
  
     h3 {
@@ -142,6 +146,9 @@
       color: #42b983;
     }
     #hue {
-      filter: hue-rotate(200deg);
+      filter: hue-rotate(200deg);      
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     </style>

@@ -27,8 +27,8 @@
         A prototype to search for Linux packages
         </a><a href="https://github.com/evenbecker/search-for-pkgs" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
         </a>
-        
-      <div id="spacer"></div>
+        <hr>
+      
      <h4 class="verdanaH">My Links                    
      </h4>                                
      <a href="https://orcid.org/0000-0002-2004-9472" target="_blank"><i class="fa fa-external-link"></i>
@@ -90,5 +90,8 @@
   color: #E0513B;
   font-size: 1.4em;
 }
-      
+hr{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}      
       </style>

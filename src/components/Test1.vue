@@ -3,9 +3,7 @@
     <div>
       <p class="verdanaHello" >Hello, I'm Even Becker</p>
       <p class="verdanaBold" >Welcome to my website</p>
-      <p id="phrasePadding">
-        The theme is inspired by Mewtwo. I never looked beyond generation II because it has become inconsistent.        
-      </p>           
+              
     </div>
     <!--
       <div id="spacerImg"></div>
@@ -52,6 +50,11 @@
       </button>
     </div>
   </div>
+  <div id="phrase">
+    <p id="phrasePadding">
+        My theme is inspired by Mewtwo. I never looked beyond generation II because it has become inconsistent. It also represents humanity's peak, before people become slaved by their digital devices.       
+      </p> 
+  </div>
 </div>
 </template>
 <script>
@@ -84,6 +87,9 @@
     top: 0;*/
     width:100%;
     text-align: center;
+}
+#phrase{
+  margin-top: 1.5rem;
 }
 #phrasePadding{
   padding: 1rem 5rem;
