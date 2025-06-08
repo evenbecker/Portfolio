@@ -29,8 +29,8 @@
   
   <div id="footer">
     <p>made with 
-        <img style="display: inline; margin: 0 3px;" alt="Vue logo" width="26px" height="auto" src="./assets/logo.svg">
-        
+        <img style="display: inline; margin: 0 3px;" alt="Vue logo" width="22px" height="auto" src="./assets/logo.svg">
+    
       </p>
   </div>
   </div>
@@ -67,7 +67,7 @@ import Todo1 from './components/Todo.vue'
   */
 #app {
   /*margin: 0 auto;*/   
- 
+
   font-family: 'Verdana', cursive;
  
 }
@@ -172,9 +172,9 @@ import Todo1 from './components/Todo.vue'
   padding: 0.0em 0.2em;
 }*/
 .default-container {
-    background: #c4dffa;
+    
     padding: 0px 0px;
-    min-height: 97vh;
+    min-height: 96vh;/* 95.6vh; */
     overflow-y: auto;
     display: flex;
     /*justify-content: center;
@@ -182,14 +182,18 @@ import Todo1 from './components/Todo.vue'
 }
 #footer{
   width:100%;
-  min-height: 3vh;
+  /*min-height: 2vh;*/
   display: flex;
+  padding: 0.175rem 0;
   justify-content: center;
-  color: hsl(0, 0%, 93%);
+  align-items: center;
+  color: hsl(0, 0%, 96%);
   background-color: hsl(305, 11%, 43%);
 }
+
 #footer > p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.75rem;
 }
 </style>
