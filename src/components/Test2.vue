@@ -232,7 +232,7 @@
 
     .animated_title > div.text_top {
       border-bottom: .8vmin solid #747474;
-      width: 92%;
+      width: 94%;
       animation: showBottomText 0.4s;
       animation-delay: 0.1s;
       top: 0;
