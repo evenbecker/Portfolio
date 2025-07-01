@@ -22,6 +22,12 @@ p.verdanaBold {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   }  
+  p.simpleVerdanaBold {
+    font: 16pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #454545;
+   
+    }   
   p.verdanaHello {
     font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
     font-weight: normal;

@@ -28,9 +28,9 @@
     </div>
   
   <div id="footer">
-    <p>made with 
-        <img style="display: inline; margin: 0 3px;" alt="Vue logo" width="22px" height="auto" src="./assets/logo.svg">
-    
+    <p>&copy;  {{currentYear }} | Developed by Even Becker. 
+      <!--<img style="display: inline; margin: 0 3px;" alt="Vue logo" width="22px" height="auto" src="./assets/logo.svg">
+    -->
       </p>
   </div>
   </div>
@@ -50,10 +50,19 @@ import Todo1 from './components/Todo.vue'
     data() {
       return {
       cmpnent: "Test1",
+      currentYear: '',
       };
+  },
+  mounted() {
+        this.year();
+    },
+  methods: { 
+    year() {
+      this.currentYear = new Date().getFullYear().toString();
+    }
   }
-  }
-  </script>
+}
+</script>
 <style>
 
   /*
@@ -193,7 +202,7 @@ import Todo1 from './components/Todo.vue'
 
 #footer > p {
   margin-top: 0.25rem;
-  margin-bottom: 0.7rem;
-  font-size: 0.75rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.85rem;
 }
 </style>
