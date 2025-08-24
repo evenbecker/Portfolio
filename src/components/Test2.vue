@@ -14,10 +14,14 @@
           <div id="megaSpacer"></div>
         </div>
       
-      <div class = "absol">
-        <p class="verdanaBold">Some alt rock bands</p>
-        <p>All right reserved to the photographs/labels.</p>   
   
+    <div class="widthText">
+        <p class="verdanaBold">Some alt rock bands</p>
+        <p>Here are photos of bands I listen to. Many albums of these bands verge on nü-metal and are sometimes straight nü-metal. All right reserved to the photographs/labels.</p>   
+        <div id="w100guitar">
+          <img class="guitar" alt="guitar" src="../assets/pictures/guitar2.png">
+        </div>
+      </div>                
     <div class="section1">           
       <div class="animated_title">
         <div class="text_top">
@@ -28,15 +32,16 @@
         </div>      
       </div>
          
-        <img class="guitar" alt="guitar" src="../assets/pictures/guitar2.png">
+        
                          
     </div>                    
-  
+    <div class="spacer"></div> 
+    <div class = "absol">
         <h2>Human Waste Project</h2>
-        <img  alt="Human Waste Project" width="65%" height="auto" src="../assets/pictures/HumanWP.webp">
+        <img  alt="Human Waste Project" width="500px" height="auto" src="../assets/pictures/HumanWP.webp">
         <div class="spacer"></div>  
         <h2>Trapt</h2>
-        <img  alt="Trapt" width="50%" height="auto" src="../assets/pictures/Trapt.jpg">
+        <img  alt="Trapt" width="300px" height="auto" src="../assets/pictures/Trapt.jpg">
         <div class="spacer"></div>     
         <h2>Flyleaf</h2>
         <img  alt="Flyleaf" width="700px" height="auto" src="../assets/pictures/flyleaf.jpg">
@@ -53,7 +58,7 @@
         <h2>LeVeL</h2>
         <img  alt="LeVeL" width="660px" height="auto" src="../assets/pictures/LeVeL.jpg">
         <div class="spacer"></div>
-      </div>
+  </div>
       
     </template>
     <script>
@@ -108,11 +113,16 @@
     </script>
     <!-- Add "scoped" attribute to limit CSS to this component only -->
     <style scoped>
+    #w100guitar{
+    margin-top: 50px;
+     width: 85%;
+     margin-bottom: -70px;
+    }
     .guitar{
       /*display: inline;*/
-      position: absolute;
+      /*position: absolute;*/
       z-index: 1;
-      margin-left: 150px;
+      /*margin-left: 150px;*/
       /*width: 55px;*/
       height: 70px;
 
@@ -141,8 +151,14 @@
     div.absol{         
      /*position: absolute;*/
   margin-left: 6px;
+  
   text-align: center;
  
+  }
+  div.widthText{
+   /* width: 30%;*/
+    max-width: 650px; 
+    
   }
   #intro{
     /*margin: auto;*/
@@ -191,8 +207,9 @@
       font-family:'Poppins', sans-serif;
       display: flex;            
       position: relative;
-      /*justify-content: center;
-      align-items: center;*/
+     /* justify-content: left;*/
+      /*align-items: center;*/
+     width: 100%;
     }
 
     

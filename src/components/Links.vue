@@ -23,7 +23,7 @@
       </a><a href="https://github.com/evenbecker/pokemon-2001" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
       </a>
       <p></p> 
-      <span id="flashy2"> new version!&nbsp;&nbsp;</span><a href="https://even-audio-player.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
+      <a href="https://even-audio-player.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A simple audio player
       </a><a href="https://github.com/evenbecker/simple-audio-player" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
       </a>

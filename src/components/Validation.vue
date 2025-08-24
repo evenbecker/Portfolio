@@ -1,4 +1,14 @@
 <template>
+    <h4 class = "verdanaH">Experiments</h4>
+    <div class="myrow">
+      <div class="column20">          
+            <img id="potion" src="../assets/pictures/potion-art.jpeg" class="logo" alt="potion logo" />                         
+      </div>
+      <div class="column80">
+        <p class="phrasePaddingBlue">In this section, I present some of my front-end experiments. I have made these little projects to improve my coding skills in various professional use cases.</p>
+      </div>  
+    </div>
+    <div class="spacer"></div>
     <img id="startpage" src="../assets/pictures/startpage-logo.png"></img>
     <button class="would" @click="showInfo = !showInfo" style="font-size:20px"><i class="fa fa-info-circle"></i>&nbsp;Would you like to know more?</button>
     <div id="myInfo" v-show="showInfo">
@@ -308,5 +318,33 @@ h2 {
 #startpage{
     height: 4rem;
    /* width:auto;*/
+}
+#potion{
+    height: 9rem;
+   /* width:auto;*/
+}
+.myrow {
+  display: flex;
+  max-width: 730px;
+  justify-content: center;
+  align-items: center;
+}
+.column80 {
+  flex: 80%;
+  /*padding: 5px;*/
+  
+}
+.column20 {
+  flex: 20%;
+  padding-right: 15px;
+  padding-left: 45px;
+}
+.phrasePaddingBlue{
+  
+  padding-top: 1rem;
+padding-right: 2rem;
+padding-bottom: 1rem;
+padding-left: 0rem;
+  
 }
 </style>                

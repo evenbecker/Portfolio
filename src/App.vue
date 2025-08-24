@@ -11,13 +11,14 @@
         <div id="group">
         <button class="mybutton" @click="cmpnent ='Test1'">Home</button>
         <button class="mybutton" @click="cmpnent ='Links'">Projects </button>
-        <button class="mybutton" @click="cmpnent ='Validation'">Form validation  </button>
+        <button class="mybutton" @click="cmpnent ='Validation'">Experiments  </button>
         <button class="mybutton" @click="cmpnent ='Todo1'">Todo list </button>
-        <button class="mybutton" @click="cmpnent ='Test_2'"> Alt rock bands</button>
         <button class="mybutton" @click="cmpnent ='Bonus'">Linux </button>   
+        <button class="mybutton" @click="cmpnent ='Test_2'"> Alt rock bands</button>
+        
         </div>
                    
-        <img class="img-responsive" id="dna" alt="dna" src="./assets/pictures/hexagon.jpg">       
+        <img id="dna" alt="dna" src="./assets/pictures/hexagon.jpg">       
       </div>
     </div>    
                  
@@ -95,13 +96,7 @@ import Todo1 from './components/Todo.vue'
     object-fit: cover;    
     filter: hue-rotate(246deg); 
 }
-.left {
-  flex: 20%;
-  /*max-width:280px;*/
-  background-color: #3a2f44;
-  background-color: rgb(249, 246, 248);
-  /*background-color: rgb(67, 69, 72);*/
-} 
+
 
 
 .mybutton {
