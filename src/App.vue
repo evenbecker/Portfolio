@@ -1,32 +1,40 @@
 <template>
   <div id="app">
-    
-      <div class="row default-container g-0">
-    <div id="menu-col" class="col-2">   
-      <div id="dark-menu">
-        <!--<p style="color:white; font-style:italic;">Github:</p>-->  
-        <!--<a href="https://github.com/evenbecker" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>-->
-        <div id="spacer"></div>
-        <!--<p></p>-->
-        <div id="group">
-        <button class="mybutton" @click="cmpnent ='Test1'">Home</button>
-        <button class="mybutton" @click="cmpnent ='Links'">Projects </button>
-        <button class="mybutton" @click="cmpnent ='Validation'">Experiments  </button>
-        <button class="mybutton" @click="cmpnent ='Todo1'">Todo list </button>
-        <button class="mybutton" @click="cmpnent ='Bonus'">Linux </button>   
-        <button class="mybutton" @click="cmpnent ='Test_2'"> Alt rock bands</button>
-        
-        </div>
-                   
-        <img id="dna" alt="dna" src="./assets/pictures/hexagon.jpg">       
-      </div>
-    </div>    
-                 
-    <div class="col-10 mybcolor">
+    <nav class="navbar navbar-expand-sm navbar-custom fixed-top">  
+  <div class="container-fluid">
+    <!-- Links -->
+    <div class="enlarge" >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button class="nav-button" @click="cmpnent ='Test1'">Home</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-button" @click="cmpnent ='Links'">Projects </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-button" @click="cmpnent ='Validation'">Experiments  </button> 
+        </li>
+        <li class="nav-item">
+          <button class="nav-button" @click="cmpnent ='Todo1'">Todo list </button> 
+        </li>
+        <li class="nav-item">
+          <button class="nav-button" @click="cmpnent ='Bonus'">Linux </button>   
+        </li>
+        <li class="nav-item">
+          <button class="nav-button" @click="cmpnent ='Test_2'"> Alt rock bands</button>  
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+    <div class="row default-container g-0">
+      <div id="spacerNav"></div>                        
+      <div class="col-12 mybcolor">
       
       <Dynamic v-bind:cmpnent="cmpnent"></Dynamic>
     </div>
-    </div>
+  </div>
   
   <div id="footer">
     <p>&copy;  {{currentYear }} | Developed by Even Becker. 
@@ -98,7 +106,14 @@ import Todo1 from './components/Todo.vue'
 }
 
 
-
+.nav-button{
+  height: 100%;
+  background-color: hsl(305, 11%, 43%); 
+  color: hsl(0, 0%, 96%);
+  padding: 0 2.2em;
+  border: none;
+  padding: 0.4em 2em;
+}
 .mybutton {
   width: 100%;
   border-radius: 0px;
@@ -115,10 +130,10 @@ import Todo1 from './components/Todo.vue'
   background: rgba( 111, 89 , 109, 1 );
 }
 /* Add a background color on hover */
-.mybutton:hover {
-  background-color: #3a2f44;/*hsl(305, 11%, 55%);*/
+.nav-button:hover {
+  background-color: hsla(302, 21%, 62%, 0.75);/*hsl(305, 11%, 55%);*/
   /*background-image: linear-gradient(to right, hsl(305, 11%, 65%), hsl(305, 11%, 39%) );*/ 
-  transition: 700ms;
+  transition: 400ms;
 }
 
 .mybutton:after {
@@ -200,4 +215,18 @@ import Todo1 from './components/Todo.vue'
   margin-bottom: 0.6rem;
   font-size: 0.85rem;
 }
+.navbar-custom {
+    background-color: hsl(305, 11%, 43%);;
+}
+.navbar-custom .navbar-brand,
+ .navbar-custom .navbar-text {
+     color: hsl(0, 0%, 96%);
+ }
+ .enlarge{
+  margin-bottom : -8px;
+  margin-top : -8px;
+ }
+ #spacerNav{
+  height: 20px;
+ }
 </style>
