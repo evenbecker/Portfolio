@@ -28,9 +28,9 @@
   </div>
 
 </nav>
-    <div class="row default-container g-0">
+    <div class="row default-container g-0 mybcolor">
       <div id="spacerNav"></div>                        
-      <div class="col-12 mybcolor">
+      <div class="col-12 ">
       
       <Dynamic v-bind:cmpnent="cmpnent"></Dynamic>
     </div>
