@@ -28,7 +28,7 @@
           <p><span class="colored"><b>Debian :</b></span> No bloat but outdated software, especially browsers. No graphical minimal installer, only a CLI installer. Some Debian derivatives have a graphical minimal installer, namely PeppermintOS and Q4OS.
           </p>
           <p id="kinoite">Debian testing: The debian testing branch can move very fast and many users have broken their system. Security patches are not immediately available. The unstable branch is more secure.</p>
-            <p><span class="colored"><b>MX Linux :</b></span> Not so bloated. Latest firefox available. For me it's Debian++. Very good distro.
+            <p><span class="colored"><b>MX Linux :</b></span> Not so bloated. Latest firefox available. It's like Debian++ to me. Very good distro.
             </p>
             <p><span class="colored"><b>OpenSUSE Tumbleweed :</b></span> Zypper is slower and less reliable than dnf. Many Tumbleweed users have to use Flatpak because OpenSUSE multimedia codec repos are messy and can lead to dependencies issues. Packman repo is maintained by external people who don't follow SUSE policy. Some Packman RPMs might be malicious. 
         </p>

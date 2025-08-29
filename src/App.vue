@@ -134,6 +134,16 @@ import Todo1 from './components/Todo.vue'
   background-color: hsla(302, 21%, 62%, 0.75);/*hsl(305, 11%, 55%);*/
   /*background-image: linear-gradient(to right, hsl(305, 11%, 65%), hsl(305, 11%, 39%) );*/ 
   transition: 400ms;
+  color: white;
+}
+/*
+.nav-button:visited{
+  background-color: purple; 
+  color: hsl(0, 0%, 96%);
+}*/
+.nav-button:focus{
+  background-color: hsla(302, 21%, 62%, 0.75);
+  color: hsl(0, 0%, 96%);
 }
 
 .mybutton:after {
@@ -167,29 +177,7 @@ import Todo1 from './components/Todo.vue'
 #spacer{
       height: 20px;
     }
-/*
-#dark-menu{
-  background-color: #3a2f44;
-  width:100%;
-  margin-right: -1.5rem;
-}
-*/
-#dark-menu{
-  background-color: #3a2f44;
-  width:100%;
-  /*margin-left: 0.75rem;
-  margin-right: 0.75rem;*/
-}
-#menu-col{
-  background-color: #3a2f44;
-}    
-#group{
-  margin-bottom: 1rem;
-}
-/*
-#github{
-  padding: 0.0em 0.2em;
-}*/
+
 .default-container {
     
     padding: 0px 0px;
