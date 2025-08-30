@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </template>
-            <div class="row py-2">
+            <div class="row py-3">
                 <div class="col-9">
                     <input v-model="newItemText" class="form-control" />
                 </div>
@@ -35,7 +35,7 @@
                         v-on:click="addNewTodo">Add</button>
                 </div>
             </div>
-            <div class="row py-2">
+            <div class="row py-3">
                 <div class="col">
                     <!--<input type="checkbox" v-model="hideCompleted" 
                         class="form-check-input" />
@@ -51,9 +51,9 @@
             <div class="row py-2">
                 <div class="col">
                     <div class="myWidth">
-                    <button class="btn btn-sm btn-warning" 
+                    <button class="btn btn-sm btn-warning" style="font-size:24px" data-bs-toggle="tooltip" data-bs-placement="right" title="delete completed tasks"
                             v-on:click="deleteCompleted">
-                        <b>Delete Completed</b>
+                        &nbsp;<i class="fa fa-trash-o"></i>&nbsp;
                     </button>
                 </div>
                 </div>
@@ -102,7 +102,13 @@
             if (data != null) {
                 this.tasks = JSON.parse(data);
             }
-        }
+        },
+        mounted() {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+	    }
     }
 </script>
 <style scoped>

@@ -55,11 +55,12 @@
       </button>
     </div>
   </div>
-  <div id="phrase">
-    <p id="phrasePadding" class="purpleText">
+  <div class="widthText" id="phrase">
+    <p class="purpleText">
         My theme is inspired by Mewtwo. I never looked beyond generation II because it has become inconsistent. It also represents humanity's peak, before people become slaved by their digital devices.       
       </p> 
   </div>
+  <div class="spacer"></div>
 </div>
 </template>
 <script>
@@ -95,11 +96,9 @@
 }
 #phrase{
   margin-top: 1.5rem;
+  padding: 1rem 0rem;
 }
-#phrasePadding{
-  padding: 1rem 5rem;
-  
-}
+
 .purpleText{
   color: hsl(305, 11%, 24%);
 }

@@ -57,6 +57,11 @@ body {
   font-family: 'Brush Script MT', cursive;
   font-size: 1.1em;
 }
+div.widthText{
+  /* width: 30%;*/
+   max-width: 650px; 
+   margin: 0 auto;
+ }
 div.spacer{
   height: 40px;
 }

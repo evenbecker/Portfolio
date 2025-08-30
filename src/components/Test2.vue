@@ -155,11 +155,7 @@
   text-align: center;
  
   }
-  div.widthText{
-   /* width: 30%;*/
-    max-width: 650px; 
-    
-  }
+
   #intro{
     /*margin: auto;*/
     text-align: center;

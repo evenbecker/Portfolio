@@ -6,26 +6,26 @@
       <!--<div id="spacer"></div>-->
       <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://init-freedom.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A responsive website about init freedom
-        </a><a href="https://github.com/evenbecker/search-for-pkgs" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
+        </a><a href="https://github.com/evenbecker/search-for-pkgs" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="top" title="click to read the project's description on Github"></i>       
         </a>
         <p></p> 
       <a href="https://table-dragonball.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A table to use the Dragon Ball API
-     </a>
+     </a>&nbsp;&nbsp;<i class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right" title="I have used Vue 3, TypeScript and Bootstrap 5 for this project."></i>
       <p></p> 
       <a href="https://calendar-game.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A Calendar Game
-      </a><a href="https://github.com/evenbecker/calendar-game" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
+      </a><a href="https://github.com/evenbecker/calendar-game" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right" title="click to read the project's description on Github"></i>       
       </a>
       <p></p> 
       <a href="https://even-pokemon-2001.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A Pokédex from 2001
-      </a><a href="https://github.com/evenbecker/pokemon-2001" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
+      </a><a href="https://github.com/evenbecker/pokemon-2001" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right" title="click to read the project's description on Github"></i>       
       </a>
       <p></p> 
       <a href="https://even-audio-player.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
         A simple audio player
-      </a><a href="https://github.com/evenbecker/simple-audio-player" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo"></i>       
+      </a><a href="https://github.com/evenbecker/simple-audio-player" target="_blank">&nbsp;&nbsp;<i class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="click to read the project's description on Github"></i>       
       </a>
        
      
@@ -46,7 +46,13 @@
         name: 'Links',
         props: {
           msg: String
-        }
+        },
+        mounted() {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+	    }
       }
       </script>
       <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -75,7 +81,7 @@
       i.myInfo {
         color: hsl(306, 11%, 44%);
         font-size:26px;
-        
+        vertical-align: middle;
       }
       i.myInfo:hover {
         color: hsl(306, 11%, 30%);
