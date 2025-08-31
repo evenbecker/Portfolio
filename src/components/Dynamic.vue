@@ -27,7 +27,7 @@
         <Bonus></Bonus>
         
     </div>
-    <div id="startpageColor" class="likeFlex" v-if="cmpnent=='Validation'">
+    <div class="likeFlex" v-if="cmpnent=='Validation'">
         
         <Validation></Validation>
     </div>
@@ -75,7 +75,5 @@ export default {
   place-items: center;
 }  
 
-#startpageColor{
-    background-color: #FAFAFF;
-}
+
 </style>

@@ -9,13 +9,18 @@
       </div>  
     </div>
     <div class="spacer"></div>
-    <img id="startpage" src="../assets/pictures/startpage-logo.png"></img>
+    <div class="startpageColor">
+      <div class="spacer"></div>
+    <div class="myflex"><img id="startpage" src="../assets/pictures/startpage-logo.png"></img>
+    </div>
+    <div class="myflex" v-show="!showInfo">
     <button class="would" @click="showInfo = !showInfo" style="font-size:20px"><i class="fa fa-info-circle"></i>&nbsp;Would you like to know more?</button>
+  </div>
     <div id="myInfo" v-show="showInfo">
         <p>This program is written in pure JavaScript, no 3rd party libs. I have used the Startpage theme colors. Startpage provides a search engine and an email service called StartMail. It's a safer way to search and browse online without personal data collection, tracking or targeting. Startpage features an anonymous view proxy to mask your identity while browsing other websites. Local cops cannot access StartMail. </p> 
         <p> Edward Snowden remarked that <q>Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say.</q></p>
     </div>
-   
+  
     <h2>REGISTRATION FORM</h2>
     <div id="myform">
         <p>
@@ -64,6 +69,8 @@
             
         
     </div>
+    <div class="spacer"></div>
+  </div>
     <div class="spacer"></div>
 </template>
 
@@ -232,6 +239,7 @@ button:focus-visible {
 #myInfo{
     max-width: 590px;     
   padding: 20px;
+  margin: 0 auto;
 }
 
 
@@ -317,6 +325,7 @@ h2 {
 }
 #startpage{
     height: 4rem;
+    /*margin: 0 auto;*/
    /* width:auto;*/
 }
 #potion{
@@ -326,6 +335,12 @@ h2 {
 .myrow {
   display: flex;
   max-width: 730px;
+  justify-content: center;
+  align-items: center;
+}
+.myflex{
+  display: flex;
+  
   justify-content: center;
   align-items: center;
 }
@@ -346,5 +361,11 @@ padding-right: 2rem;
 padding-bottom: 1rem;
 padding-left: 0rem;
   
+}
+.startpageColor{
+    background-color: #FAFAFF;
+    width: 85%;
+    border-radius: 20px;
+  border: 2px solid #747474;
 }
 </style>                
