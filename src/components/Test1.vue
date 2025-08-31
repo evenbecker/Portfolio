@@ -87,13 +87,7 @@
     a {
       color: #42b983;
     }
-  .centered-fixed {
-    /*position: fixed;
-    z-index:1;
-    top: 0;*/
-    width:100%;
-    text-align: center;
-}
+
 #phrase{
   margin-top: 1.5rem;
   padding: 1rem 0rem;
@@ -102,13 +96,7 @@
 .purpleText{
   color: hsl(305, 11%, 24%);
 }
-    .white {
-      background-color: white;
-      left: 0;
-      width:100%;
-      /*min-height:400px;*/
-      text-align: center;
-    }
+   
     p.pre {
   white-space: pre;
     }

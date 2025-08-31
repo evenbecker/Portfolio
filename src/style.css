@@ -82,15 +82,22 @@ h1 {
   line-height: 1.1;
 }
 h4.verdanaH {
-  font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font: 18pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #454545;
   /*line-height: 10pt;*/
   /*text-align:center;*/
   margin-top: 1.8rem;
   margin-bottom: 1.8rem;
+  text-align: center;
   }
-
+  .centered-fixed {
+    /*position: fixed;
+    z-index:1;
+    top: 0;*/
+    width:90%;
+    text-align: center;
+}
 .card {
   padding: 2em;
 }

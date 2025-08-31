@@ -87,13 +87,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         color: hsl(306, 11%, 30%);
       }
 
-    .centered-fixed {
-      /*position: fixed;
-      z-index:1;
-      top: 0;*/
-  
-      text-align: center;
-  }
+
   #flashy2{
   color: #E0513B;
   font-size: 1.4em;

@@ -1,12 +1,12 @@
 <template>
     
     <!--<p>The dynamic component prints : {{cmpnent}}</p>-->
-    <div class="mytop likeFlex" v-if="cmpnent=='Todo1'">
+    <div class="likeFlex" v-if="cmpnent=='Todo1'">
         <!--<p>The v-if Todo1 works</p>-->
         <Todo1></Todo1>
         <!--<div class="bigSpacer"></div>-->
     </div>
-    <div class="mytop likeFlex" v-if="cmpnent=='Test1'">
+    <div class="likeFlex" v-if="cmpnent=='Test1'">
         <!--<p>The v-if Test1 works</p>-->
        <Test1></Test1>
        <!--<div class="bigSpacer"></div>-->
@@ -27,7 +27,7 @@
         <Bonus></Bonus>
         
     </div>
-    <div id="startpageColor" class="likeFlex mytop" v-if="cmpnent=='Validation'">
+    <div id="startpageColor" class="likeFlex" v-if="cmpnent=='Validation'">
         
         <Validation></Validation>
     </div>
@@ -74,9 +74,7 @@ export default {
   
   place-items: center;
 }  
-.mytop{
-    padding-top: 20px;
-}
+
 #startpageColor{
     background-color: #FAFAFF;
 }

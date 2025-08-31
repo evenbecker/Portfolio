@@ -16,7 +16,7 @@
       
   
     <div class="widthText">
-        <p class="verdanaBold">Some alt rock bands</p>
+        <h4 class="verdanaH">Some alt rock bands</h4>
         <p>Here are photos of bands I listen to. Many albums of these bands verge on nü-metal and are sometimes straight nü-metal. All right reserved to the photographs/labels.</p>   
         <div id="w100guitar">
           <img class="guitar" alt="guitar" src="../assets/pictures/guitar2.png">
