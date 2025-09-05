@@ -37,12 +37,18 @@
     </div>                    
     <div class="spacer"></div> 
     <div class = "absol">
+      <h2>Evanescence</h2>
+        <img  alt="Evanescence" width="820px" height="auto" src="../assets/pictures/Evanescence.jpeg">
+        <div class="spacer"></div> 
         <h2>Human Waste Project</h2>
         <img  alt="Human Waste Project" width="500px" height="auto" src="../assets/pictures/HumanWP.webp">
         <div class="spacer"></div>  
         <h2>Trapt</h2>
         <img  alt="Trapt" width="300px" height="auto" src="../assets/pictures/Trapt.jpg">
-        <div class="spacer"></div>     
+        <div class="spacer"></div>  
+        <h2>P.O.D.</h2>
+        <img  alt="P.O.D." width="360px" height="auto" src="../assets/pictures/POD.jpeg">
+        <div class="spacer"></div>   
         <h2>Flyleaf</h2>
         <img  alt="Flyleaf" width="700px" height="auto" src="../assets/pictures/flyleaf.jpg">
         <div class="spacer"></div>
@@ -50,7 +56,7 @@
         <img  alt="Deftones" width="700px" height="auto" src="../assets/pictures/deftones_2001.jpg">
         <div class="spacer"></div>
         <h2>Taproot</h2>
-        <img  alt="Taproot" width="700px" height="auto" src="../assets/pictures/Taproot-2023-Credit-Thom-Hazaert.jpg">
+        <img  alt="Taproot" width="800px" height="auto" src="../assets/pictures/Taproot-2023-Credit-Thom-Hazaert.jpg">
         <div class="spacer"></div>
         <h2>Head Phones President</h2>
         <img  alt="Head Phones President" width="820px" height="auto" src="../assets/pictures/headphonespresident.jpg">
