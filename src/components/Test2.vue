@@ -74,7 +74,10 @@
             loadin: true,
                         
             }
-        },        
+        },     
+        mounted() {
+          document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+},   
       watch: { 
         myprop: function(newVal, oldVal) { // watch it
           //console.log('Prop called load changed: ', newVal, ' | was: ', oldVal);

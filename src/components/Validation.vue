@@ -95,7 +95,9 @@ export default {
             newItemText: ""*/
         }
     },
-      
+    mounted() {
+      document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+},
         methods: {
              validateForm() {
     const name = document.getElementById("name").value;

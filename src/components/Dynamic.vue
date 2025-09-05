@@ -53,6 +53,9 @@ export default {
             
         }
     },
+    mounted() {
+        document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+},
     watch: { cmpnent: function(newVal, oldVal) { // watch it
         //console.log('Prop called cmpnent: changed: ', newVal, ' | was: ', oldVal);
         if (newVal == "Test_2"){

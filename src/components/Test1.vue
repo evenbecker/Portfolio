@@ -68,7 +68,10 @@
       name: 'Test1',
       props: {
         msg: String
-      }
+      },
+      mounted() {
+        document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+}
     }
     </script>
     <!-- Add "scoped" attribute to limit CSS to this component only -->
