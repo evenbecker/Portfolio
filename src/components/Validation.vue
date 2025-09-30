@@ -1,8 +1,8 @@
 <template>
     <h4 class = "verdanaH">Experiments</h4>
     <div class="myrow">
-      <div class="column20">          
-            <img id="potion" src="../assets/pictures/potion-art.jpeg" class="logo" alt="potion logo" />                         
+      <div class="column20">                  
+            <img id="potion" src="../assets/pictures/potion-art.jpeg" class="img-border" alt="potion logo" />                                   
       </div>
       <div class="column80">
         <p class="phrasePaddingBlue">In this section, I present some of my front-end experiments. I have made these little projects to improve my coding skills in various professional use cases.</p>
@@ -331,7 +331,7 @@ h2 {
    /* width:auto;*/
 }
 #potion{
-    height: 9rem;
+    height: 7rem;
    /* width:auto;*/
 }
 .myrow {
@@ -355,6 +355,10 @@ h2 {
   flex: 20%;
   padding-right: 15px;
   padding-left: 45px;
+}
+.img-border{
+  border-radius: 18px;
+  border: 1px solid #747474;
 }
 .phrasePaddingBlue{
   

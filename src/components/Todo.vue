@@ -2,7 +2,7 @@
     <div class="spacer"></div>
         <div class="container-fluid p-4 w-50">
             <label>Enter your name:</label>
-            <input v-model="name" class="form-control" />
+            <input v-model="name" class="form-control myWidth" />
         </div>
         <h4 class="p-2 custom-margin">
             {{name}}'s To Do List
