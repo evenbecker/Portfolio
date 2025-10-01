@@ -8,7 +8,8 @@
         <p class="phrasePaddingBlue">In this section, I present some of my front-end experiments. I have made these little projects to improve my coding skills in various professional use cases.</p>
       </div>  
     </div>
-    <div class="spacer"></div>
+    <Todo1></Todo1>
+    
     <div class="startpageColor">
       <div class="spacer"></div>
     <div class="myflex"><img id="startpage" src="../assets/pictures/startpage-logo.png"></img>
@@ -82,8 +83,11 @@ afficher un calendar pour la date de naissance
 faire un v-bind:class pour un dark mode 
 github readme: 
 */
-
+import Todo1 from './Todo.vue'
 export default {    
+  components: {
+        Todo1,
+  },
     data() {
         return {
             showInfo: false
@@ -358,14 +362,14 @@ h2 {
 }
 .img-border{
   border-radius: 18px;
-  border: 1px solid #747474;
+  border: 1px solid #74747468;
 }
 .phrasePaddingBlue{
   
   padding-top: 1rem;
 padding-right: 2rem;
 padding-bottom: 1rem;
-padding-left: 0rem;
+padding-left: 0.5rem;
   
 }
 .startpageColor{
