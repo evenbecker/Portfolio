@@ -10,6 +10,108 @@
     </p>
 </div>        
     </div>
+    <div class="container my-5">
+      <p class="verdanaHello">My skills:</p>
+    <!-- <h1 class="text-center mb-4">title to remove</h1> -->
+    <div class="row g-4">      
+      <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/Angular.png" alt=" ">
+                <div class="logo-content">
+                    <p class="simpleVerdanaBold">Angular</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/React.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">React</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/Vue.js.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">Vue 3</p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/Bootstrap.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">Bootstrap 5</p>
+                </div>
+            </div>
+          </div>  
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/Material-UI.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">Material UI</p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/Tailwind-CSS.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">Tailwind-CSS</p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/TypeScript.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">TypeScript</p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/Vite.js.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">Vite</p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/Next.js.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">Next.js</p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/Git.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">Git</p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/Java.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">Java</p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+        <div class="logo-item">
+                <img src="../assets/logos/PostgresSQL.png" alt=" ">
+                <div class="logo-content">
+                  <p class="simpleVerdanaBold">PostgresSQL</p>
+                </div>
+            </div>
+          </div>      
+    </div>
+</div>
     <!--
       <div id="spacerImg"></div>
     -->
@@ -188,5 +290,39 @@ max-height: 345px;
 .wave-container{
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
+}
+.logo-item {
+    height: 11em;
+    border-radius: 15px;
+    border: 1px solid #74747468;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.logo-item:hover {
+    transform: scale(1.05);
+}
+
+
+
+.logo-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*background: rgba(0, 0, 0, 0.6);*/
+    color: hsl(305, 11%, 24%);;
+}
+
+.logo-item img {
+    width: 5em;
+    height: auto;
+    padding-top: 1.5em;
+    
 }
     </style>
