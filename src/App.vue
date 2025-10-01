@@ -14,9 +14,7 @@
         <li class="nav-item">
           <button class="nav-button" @click="cmpnent ='Validation'">Experiments  </button> 
         </li>
-        <li class="nav-item">
-          <button class="nav-button" @click="cmpnent ='Todo1'">Todo list </button> 
-        </li>
+        
         <li class="nav-item">
           <button class="nav-button" @click="cmpnent ='Bonus'">Linux </button>   
         </li>

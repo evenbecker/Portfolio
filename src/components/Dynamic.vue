@@ -1,11 +1,7 @@
 <template>
     
     <!--<p>The dynamic component prints : {{cmpnent}}</p>-->
-    <div class="likeFlex" v-if="cmpnent=='Todo1'">
-        <!--<p>The v-if Todo1 works</p>-->
-        <Todo1></Todo1>
-        <!--<div class="bigSpacer"></div>-->
-    </div>
+   
     <div class="likeFlex" v-if="cmpnent=='Test1'">
         <!--<p>The v-if Test1 works</p>-->
        <Test1></Test1>
