@@ -1,6 +1,7 @@
 <template>
   <div class="centered-fixed">
     <div>
+      <div class="spacer"></div>
       <p class="verdanaHello" >Hello, I'm Even Becker</p>
 
       <!--<p class="verdanaBold" >Welcome to my website</p>-->
@@ -11,7 +12,7 @@
 </div>        
     </div>
     <div class="container my-5">
-      <p class="verdanaHello">My skills:</p>
+      <p class="verdanaHello mb-4">I have experience in the following web technologies:</p>
     <!-- <h1 class="text-center mb-4">title to remove</h1> -->
     <div class="row g-4">      
       <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
@@ -116,7 +117,7 @@
       <div id="spacerImg"></div>
     -->
   <div id="mywhite" class="container-fluid p-5 w-100">
-    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active cimg" data-bs-interval="2000">
           <img src="../assets/pictures/Pokemon_Mewtwo.png" class="d-block" alt="Mewtwo">
