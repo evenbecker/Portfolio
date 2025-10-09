@@ -2,7 +2,48 @@
     <div class="centered-marge">
       <div id="article">
         <h4 class="verdanaH">Linux as a desktop OS</h4>                  
-        <p> Linux works well on server. However on desktop, there are more things to consider: multimedia codecs, Wi-Fi drivers, GPU drivers (possible screen tearing/stuttering/flickering), CPU microcode, printers drivers, ... Problems may happen. Never expect popular distros to make things work out-of-the-box as they pretend to do. Better study the configuration files and CLI utilities by reading the <a href="https://wiki.archlinux.org/title/Main_page">Arch wiki</a> or the Gentoo wiki. A good Linux user doesn't need GUI tools besides the installer.<br> Opinions about bloat are divided. Security experts think that complex software is prone to vulnerabilities. Some pieces of software contain tremendous amounts of totally unnecessary attack surface and follows poor security practices. In addition, new features can increase the attack surface and introduce a large amount of new bugs. <a href="https://www.gnu.org/distros/free-distros.en.html">FSF-approved</a> Trisquel GNU/Linux gives a good idea about what to avoid. Trisquel doesn't have a Gnome edition, so I don't use Gnome. My favorite distro is Void Linux. This distro is praised for its speed, small attack surface, and flexibility.</p>
+        <p> Linux works well on server. However on desktop, there are more things to consider: multimedia codecs, Wi-Fi drivers, GPU drivers (possible screen tearing/stuttering/flickering), CPU microcode, printers drivers, ... Problems may happen. Never expect popular distros to make things work out-of-the-box as they pretend to do. Better study the configuration files and CLI utilities by reading the <a href="https://wiki.archlinux.org/title/Main_page">Arch wiki</a> or the Gentoo wiki. A good Linux user doesn't need GUI system configuration tools besides the installer.<br> Opinions about bloat are divided. Security experts think that complex software is prone to vulnerabilities. Some pieces of software contain tremendous amounts of totally unnecessary attack surface and follows poor security practices. In addition, new features can increase the attack surface and introduce a large amount of new bugs. <a href="https://www.gnu.org/distros/free-distros.en.html">FSF-approved</a> Trisquel GNU/Linux gives a good idea about what to avoid. Trisquel doesn't have a Gnome edition, so I don't use Gnome. I use a stacking window manager. One big advantage of window managers is to be able to run apps from different desktop environments without any stability/performance loss. Here are some of the tools I use daily:</p>
+    <div class="card p-1 bg-light card-margin-top">
+      <p class="simpleVerdanaBold">
+      &nbsp; Kate &nbsp;&nbsp;
+        <span class="badge rounded-pill bg-primary font-small">
+            KDE
+        </span>
+      </p>
+      <div class="card-text bg-white p-1">&nbsp; Text editor with basic IDE features. </div>
+    </div>
+    <div class="card p-1 bg-light card-margin">
+      <p class="simpleVerdanaBold">
+      &nbsp; Kompare &nbsp;&nbsp;
+        <span class="badge rounded-pill bg-primary font-small">
+            KDE
+        </span>
+      </p>
+      <div class="card-text bg-white p-1">&nbsp; It enables differences between source files to be viewed and merged. It can be used to compare differences on files or the contents of folders recursively.
+</div>
+    </div>
+    <div class="card p-1 bg-light card-margin">
+      <p class="simpleVerdanaBold">
+      &nbsp; KFind &nbsp;&nbsp;
+        <span class="badge rounded-pill bg-primary font-small">
+            KDE
+        </span>
+      </p>
+      <div class="card-text bg-white p-1">&nbsp; A search tool that can be integrated into file explorers. It allows you to find files by name, type or content.
+</div>
+    </div>
+    <div class="card p-1 bg-light card-margin">
+      <p class="simpleVerdanaBold">
+      &nbsp; todo &nbsp;&nbsp;
+        <span class="badge rounded-pill bg-secondary font-small">
+            XFCE
+        </span>
+      </p>
+      <div class="card-text bg-white p-1">&nbsp; todo
+</div>
+    </div>
+    <div class="spacer"></div>
+         <p>My favorite distro is Void Linux. This distro is praised for its speed, small attack surface, and flexibility.</p>
         
             
             <div class="myrow">
@@ -90,7 +131,20 @@
   #kinoite{
     margin-left: 40px;
   }
-    
+  .font-small{  
+  font-size: 0.8rem;
+}    
+.card-margin-top{
+  margin-top : 3rem;
+  margin-left : 3rem;
+  margin-right : 3rem;
+  margin-bottom: 0.25rem;
+}
+.card-margin{
+    margin-left : 3rem;
+    margin-right : 3rem;
+    margin-bottom: 0.25rem;
+}
 .myrow {
   display: flex;
   justify-content: center;
