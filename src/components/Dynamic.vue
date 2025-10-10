@@ -1,34 +1,31 @@
 <template>
-    
+
     <!--<p>The dynamic component prints : {{cmpnent}}</p>-->
-   
-    <div class="likeFlex" v-if="cmpnent=='Test1'">
+    <div class="likeFlex" v-if="cmpnent == 'Test1'">
         <!--<p>The v-if Test1 works</p>-->
-       <Test1></Test1>
-       <!--<div class="bigSpacer"></div>-->
+        <Test1></Test1>
+        <!--<div class="bigSpacer"></div>-->
     </div>
-    <div class="likeFlex" v-if="cmpnent=='Test_2'">
+    <div class="likeFlex" v-if="cmpnent == 'Test_2'">
         <!--<p>The v-if Test_2 works</p>-->
         <Test_2 :myprop="load"></Test_2>
-       <!-- <div class="bigSpacer"></div>-->
-       <!-- < this.load = !this.load>-->
+        <!-- <div class="bigSpacer"></div>-->
+        <!-- < this.load = !this.load>-->
     </div>
-    <div class="likeFlex" v-if="cmpnent=='Links'">
-        
+    <div class="likeFlex" v-if="cmpnent == 'Links'">
         <Links></Links>
         <!--<div class="bigSpacer"></div>-->
     </div>
-    <div class="likeFlex" v-if="cmpnent=='Bonus'">
+    <div class="likeFlex" v-if="cmpnent == 'Bonus'">
         <!--<p>The v-if Bonus works</p>-->
         <Bonus></Bonus>
-        
     </div>
-    <div class="likeFlex" v-if="cmpnent=='Validation'">
-        
+    <div class="likeFlex" v-if="cmpnent == 'Validation'">
+
         <Validation></Validation>
     </div>
-    
-</template>  
+
+</template>
 <script>
 import Test1 from './Test1.vue'
 import Test_2 from './Test2.vue'
@@ -38,41 +35,39 @@ import Links from './Links.vue'
 import Validation from './Validation.vue'
 
 export default {
-      name: 'Dynamic',
-      components: {
-        Test1,Test_2,Todo1,Bonus,Links,Validation
-  },
-      props: ['cmpnent'],
-      data () {
+    name: 'Dynamic',
+    components: {
+        Test1, Test_2, Todo1, Bonus, Links, Validation
+    },
+    props: ['cmpnent'],
+    data() {
         return {
             load: true,
-            
+
         }
     },
     mounted() {
         document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
-},
-    watch: { cmpnent: function(newVal, oldVal) { // watch it
-        //console.log('Prop called cmpnent: changed: ', newVal, ' | was: ', oldVal);
-        if (newVal == "Test_2"){
-            setTimeout(() => this.load = !this.load, 200);
-            //this.load = !this.load;
-           
-        }        
-        }                        
+    },
+    watch: {
+        cmpnent: function (newVal, oldVal) { // watch it
+            //console.log('Prop called cmpnent: changed: ', newVal, ' | was: ', oldVal);
+            if (newVal == "Test_2") {
+                setTimeout(() => this.load = !this.load, 200);
+                //this.load = !this.load;
+
+            }
+        }
     }
 }
 </script>
 <style scoped>
-
-.likeFlex{
+.likeFlex {
     margin: 0 auto;
     padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  
-  place-items: center;
-}  
+    display: flex;
+    flex-direction: column;
 
-
+    place-items: center;
+}
 </style>
