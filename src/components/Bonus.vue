@@ -12,9 +12,12 @@
         amounts of totally unnecessary attack surface and follows poor security practices. In addition, new features can
         increase the attack surface and introduce a large amount of new bugs. <a
           href="https://www.gnu.org/distros/free-distros.en.html">FSF-approved</a> Trisquel GNU/Linux gives a good idea
-        about what to avoid. Trisquel doesn't have a Gnome edition, so I don't use Gnome. I use a stacking window
+        about what to avoid. Trisquel doesn't have a Gnome edition, so I don't use Gnome. I use IceWM: a stacking window
         manager. One big advantage of window managers is to be able to run apps of different desktop environments
-        without any stability/performance loss. Here are some of the tools I use:</p>
+        without any stability/performance loss.
+        I use MouseWinTabbing to merge windows and form a tab. This feature was originally developped for Haiku and
+        later implemented in IceWM.
+        Here are some of the tools I use:</p>
       <div class="card p-1 bg-light card-margin-top">
         <p class="simpleVerdanaBold">
           &nbsp; IceWM &nbsp;&nbsp;
@@ -33,12 +36,20 @@
       </div>
       <div class="card p-1 bg-light card-margin">
         <p class="simpleVerdanaBold">
+          &nbsp; Midnight Commander &nbsp;&nbsp;
+
+        </p>
+        <div class="card-text bg-white p-1">&nbsp; A CLI-based file manager
+        </div>
+      </div>
+      <div class="card p-1 bg-light card-margin">
+        <p class="simpleVerdanaBold">
           &nbsp; Kate &nbsp;&nbsp;
           <span class="badge rounded-pill bg-primary font-small">
             KDE
           </span>
         </p>
-        <div class="card-text bg-white p-1">&nbsp; Text editor with basic IDE features. </div>
+        <div class="card-text bg-white p-1">&nbsp; A text editor with basic IDE features </div>
       </div>
       <div class="card p-1 bg-light card-margin">
         <p class="simpleVerdanaBold">
