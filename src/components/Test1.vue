@@ -105,9 +105,17 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
           <div class="logo-item">
+            <img src="../assets/logos/DotNetCoreLogoVector.svg.png" alt=" ">
+            <div class="logo-content">
+              <p class="simpleVerdanaBold">ASP.NET Core Web API</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+          <div class="logo-item">
             <img src="../assets/logos/PostgresSQL.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">PostGreSQL</p>
+              <p class="simpleVerdanaBold">PostgreSQL</p>
             </div>
           </div>
         </div>
