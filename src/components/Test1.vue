@@ -124,6 +124,18 @@
     <!--
       <div id="spacerImg"></div>
     -->
+    <div class="widthText" id="phrase">
+      <p class="purpleText">
+        My theme is inspired by Mewtwo. I never looked beyond generation II because it has become inconsistent. It also
+        represents humanity's peak, before people become slaved by their digital devices.
+      </p>
+    </div>
+    <div class="spacer"></div>
+    <div class="containerImg">
+      <img src="../assets/pictures/montain2025.png" id="montain" alt="Montain">
+      <div class="top-left">Mewtwo's secret place</div>
+    </div>
+    <div class="spacer"></div>
     <div id="mywhite" class="container-fluid p-5 w-100">
       <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="true">
         <div class="carousel-inner">
@@ -172,13 +184,10 @@
         </button>
       </div>
     </div>
-    <div class="widthText" id="phrase">
-      <p class="purpleText">
-        My theme is inspired by Mewtwo. I never looked beyond generation II because it has become inconsistent. It also
-        represents humanity's peak, before people become slaved by their digital devices.
-      </p>
-    </div>
+
     <div class="spacer"></div>
+
+
   </div>
 </template>
 <script>
@@ -373,5 +382,22 @@ p.pre {
   height: auto;
   padding-top: 1.5em;
 
+}
+
+.top-left {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.containerImg {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+#montain {
+  width: 100%;
 }
 </style>
