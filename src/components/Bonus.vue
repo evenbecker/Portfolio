@@ -223,16 +223,16 @@ li {
 }
 
 a {
-  color: hsl(305, 11%, 39%);
+  color: hsl(305, 32%, 39%);
   font-weight: bold;
 }
 
 a:hover {
-  color: hsl(305, 11%, 28%);
+  color: hsl(305, 32%, 28%);
 }
 
 .colored {
-  color: hsl(305, 11%, 37%);
+  color: hsl(305, 32%, 37%);
 }
 
 .centered-marge {

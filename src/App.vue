@@ -106,7 +106,7 @@ export default {
 
 .nav-button {
   height: 100%;
-  background-color: hsl(305, 11%, 43%);
+  background-color: hsl(305, 32%, 43%);
   color: hsl(0, 0%, 96%);
   padding: 0 2.2em;
   border: none;
@@ -116,7 +116,7 @@ export default {
 .mybutton {
   width: 100%;
   border-radius: 0px;
-  background-color: hsl(305, 11%, 39%);
+  background-color: hsl(305, 32%, 39%);
   border: 3px solid #3a2f44;
   color: white;
   /* White text */
@@ -128,14 +128,14 @@ export default {
 }
 
 #bidon {
-  color: hsl(305, 11%, 39%);
+  color: hsl(305, 32%, 39%);
   /* 111,89,109 */
   background: rgba(111, 89, 109, 1);
 }
 
 /* Add a background color on hover */
 .nav-button:hover {
-  background-color: hsla(302, 21%, 62%, 0.75);
+  background-color: hsla(305, 32%, 62%, 0.75);
   /*hsl(305, 11%, 55%);*/
   /*background-image: linear-gradient(to right, hsl(305, 11%, 65%), hsl(305, 11%, 39%) );*/
   transition: 400ms;
@@ -148,13 +148,13 @@ export default {
   color: hsl(0, 0%, 96%);
 }*/
 .nav-button:focus {
-  background-color: hsla(302, 21%, 62%, 0.75);
+  background-color: hsla(305, 32%, 62%, 0.75);
   color: hsl(0, 0%, 96%);
 }
 
 .mybutton:after {
   content: "";
-  background: hsl(305, 11%, 65%);
+  background: hsl(305, 32%, 65%);
   display: block;
   position: absolute;
   padding-top: 300%;
@@ -208,7 +208,7 @@ export default {
   justify-content: center;
   align-items: center;
   color: hsl(0, 0%, 96%);
-  background-color: hsl(305, 11%, 43%);
+  background-color: hsl(305, 32%, 43%);
 }
 
 #footer>p {
@@ -218,7 +218,7 @@ export default {
 }
 
 .navbar-custom {
-  background-color: hsl(305, 11%, 43%);
+  background-color: hsl(305, 32%, 43%);
   ;
 }
 

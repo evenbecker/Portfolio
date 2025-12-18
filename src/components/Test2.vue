@@ -153,7 +153,7 @@ export default {
 #myBar {
   width: 1%;
   height: 30px;
-  background-color: hsl(305, 11%, 55%);
+  background-color: hsl(305, 32%, 55%);
   border-radius: 10px;
 }
 

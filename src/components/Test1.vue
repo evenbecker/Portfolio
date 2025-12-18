@@ -2,7 +2,7 @@
   <div class="centered-fixed">
     <div>
       <div class="spacer"></div>
-      <p class="verdanaHello">Hello, I'm Even Becker</p>
+      <p class="verdanaHello mb-1 mt-1">Hello, I'm Even Becker</p>
 
       <!--<p class="verdanaBold" >Welcome to my website</p>-->
       <div class="wave-container">
@@ -12,14 +12,14 @@
       </div>
     </div>
     <div class="container my-5">
-      <p class="verdanaHello mb-4">I have experience in the following web technologies:</p>
+      <p class="verdanaHello mb-4 mt-1">I have experience in the following web technologies:</p>
       <!-- <h1 class="text-center mb-4">title to remove</h1> -->
       <div class="row g-4">
         <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
           <div class="logo-item">
             <img src="../assets/logos/Angular.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Angular</p>
+              <p class="verdanaHello">Angular</p>
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@
           <div class="logo-item">
             <img src="../assets/logos/React.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">React</p>
+              <p class="verdanaHello">React</p>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@
           <div class="logo-item">
             <img src="../assets/logos/Vue.js.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Vue 3</p>
+              <p class="verdanaHello">Vue 3</p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
           <div class="logo-item">
             <img src="../assets/logos/Bootstrap.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Bootstrap 5</p>
+              <p class="verdanaHello">Bootstrap 5</p>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
           <div class="logo-item">
             <img src="../assets/logos/Material-UI.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Material UI</p>
+              <p class="verdanaHello">Material UI</p>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
           <div class="logo-item">
             <img src="../assets/logos/Tailwind-CSS.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Tailwind-CSS</p>
+              <p class="verdanaHello">Tailwind-CSS</p>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
           <div class="logo-item">
             <img src="../assets/logos/TypeScript.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">TypeScript</p>
+              <p class="verdanaHello">TypeScript</p>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@
           <div class="logo-item">
             <img src="../assets/logos/Vite.js.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Vite</p>
+              <p class="verdanaHello">Vite</p>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@
           <div class="logo-item">
             <img src="../assets/logos/Next.js.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Next.js</p>
+              <p class="verdanaHello">Next.js</p>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@
           <div class="logo-item">
             <img src="../assets/logos/Git.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Git</p>
+              <p class="verdanaHello">Git</p>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@
           <div class="logo-item">
             <img src="../assets/logos/Java.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Java</p>
+              <p class="verdanaHello">Java</p>
             </div>
           </div>
         </div>
@@ -107,7 +107,7 @@
           <div class="logo-item">
             <img src="../assets/logos/python-icon.svg" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">Python</p>
+              <p class="verdanaHello">Python</p>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@
           <div class="logo-item">
             <img src="../assets/logos/DotNetCoreLogoVector.svg.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">ASP.NET Core Web API</p>
+              <p class="verdanaHello">ASP.NET Core Web API</p>
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@
           <div class="logo-item">
             <img src="../assets/logos/PostgresSQL.png" alt=" ">
             <div class="logo-content">
-              <p class="simpleVerdanaBold">PostgreSQL</p>
+              <p class="verdanaHello">PostgreSQL</p>
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@ a {
 }
 
 .purpleText {
-  color: hsl(305, 11%, 24%);
+  color: hsl(305, 32%, 24%);
 }
 
 p.pre {
@@ -381,7 +381,7 @@ p.pre {
   padding-left: 15px;
   padding-right: 15px;
   /*background: rgba(0, 0, 0, 0.6);*/
-  color: hsl(305, 11%, 24%);
+  color: hsl(305, 32%, 24%);
   ;
 }
 
@@ -402,7 +402,7 @@ p.pre {
   position: relative;
   text-align: center;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 #montain {

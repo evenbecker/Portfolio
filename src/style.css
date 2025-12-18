@@ -32,10 +32,7 @@ p.verdanaBold {
     font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #454545;
-    /*line-height: 10pt;*/
-    /*text-align:center;*/
-    margin-top: 1.0rem;
-    margin-bottom: 1.0rem;
+
     }  
 a {
   font-weight: 500;
