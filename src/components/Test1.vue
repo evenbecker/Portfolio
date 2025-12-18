@@ -41,7 +41,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
           <div class="logo-item">
-            <img src="../assets/logos/Bootstrap.png" alt=" ">
+            <img src="../assets/logos/Bootstrap.svg" alt=" ">
             <div class="logo-content">
               <p class="verdanaHello">Bootstrap 5</p>
             </div>
@@ -52,6 +52,14 @@
             <img src="../assets/logos/Material-UI.png" alt=" ">
             <div class="logo-content">
               <p class="verdanaHello">Material UI</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
+          <div class="logo-item">
+            <img src="../assets/logos/sass-icon.svg" alt=" ">
+            <div class="logo-content">
+              <p class="verdanaHello">Sass</p>
             </div>
           </div>
         </div>
@@ -73,7 +81,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4" style="max-width: 220px; min-width: 220px">
           <div class="logo-item">
-            <img src="../assets/logos/Vite.js.png" alt=" ">
+            <img src="../assets/logos/vite-icon.svg" alt=" ">
             <div class="logo-content">
               <p class="verdanaHello">Vite</p>
             </div>
