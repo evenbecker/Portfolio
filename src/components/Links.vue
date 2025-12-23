@@ -16,11 +16,16 @@
       The Initial D Cars App
     </a>
     <p></p>
-    <a href="https://table-dragonball.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
+
+    <a href="https://table-dragon-ball.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
       A table to use the Dragon Ball API
-    </a>&nbsp;&nbsp;<i class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right"
-      title="I have used Vue 3, TypeScript and Bootstrap 5 for this project."></i>
+    </a><a href="https://github.com/evenbecker/table-dragon-ball-api" target="_blank">&nbsp;&nbsp;<i
+        class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right"
+        title="click to read the project's description on Github"></i>
+    </a>
     <p></p>
+
+
     <a href="https://even-pokemon-2001.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
       A Pokédex from 2001
     </a><a href="https://github.com/evenbecker/pokemon-2001" target="_blank">&nbsp;&nbsp;<i
