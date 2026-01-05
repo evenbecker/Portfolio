@@ -4,15 +4,19 @@
     <h4 class="verdanaH">My Projects
     </h4>
     <!--<div id="spacer"></div>-->
+    <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://github.com/evenbecker/App-for-ordering-food"
+      target="_blank"><i class="fa fa-external-link"></i>
+      An app for ordering food
+    </a>
+    <p></p>
     <a href="https://init-freedom.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
       A responsive website about init freedom
     </a><a href="https://github.com/evenbecker/search-for-pkgs" target="_blank">&nbsp;&nbsp;<i
-        class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="top"
+        class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right"
         title="click to read the project's description on Github"></i>
     </a>
     <p></p>
-    <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://github.com/evenbecker/Initial-D-App" target="_blank"><i
-        class="fa fa-external-link"></i>
+    <a href="https://github.com/evenbecker/Initial-D-App" target="_blank"><i class="fa fa-external-link"></i>
       The Initial D Cars App
     </a>
     <p></p>

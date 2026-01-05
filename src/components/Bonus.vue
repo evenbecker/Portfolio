@@ -28,10 +28,13 @@
       </div>
       <div class="card p-1 bg-light card-margin">
         <p class="simpleVerdanaBold">
-          &nbsp; Sakura &nbsp;&nbsp;
-
+          &nbsp; Konsole &nbsp;&nbsp;
+          <span class="badge rounded-pill bg-primary font-small">
+            KDE
+          </span>
         </p>
-        <div class="card-text bg-white p-1">&nbsp; A fast terminal emulator
+        <div class="card-text bg-white p-1">&nbsp; A terminal emulator with some nice features (paths bookmarks,
+          notification, ...)
         </div>
       </div>
       <div class="card p-1 bg-light card-margin">
@@ -128,7 +131,8 @@
         </div>
       </div>
       <div class="spacer"></div>
-      <p>My favorite distro is Void Linux. This distro is praised for its speed, small attack surface, and flexibility.
+      <p class="no-marge">My favorite distro is Void Linux. This distro is praised for its speed, small attack surface,
+        and flexibility.
       </p>
 
 
@@ -142,6 +146,42 @@
             <img src="../assets/pictures/Void_Linux_logo.svg" class="logo" alt="Void logo" />
           </a>
         </div>
+      </div>
+
+
+      <p> For maximal security, I install my dev tools on a secondary OS in dual-boot. Indeed these tools have
+        vulnerabilities. For instance, there are more and more malicious VS Code extensions. Most people avoid dual
+        booting because it is time consuming. Here is a
+        summary of my dual-boot setup:</p>
+      <div class="text-table">
+        <table>
+          <tr>
+            <th></th>
+            <th>private system</th>
+            <th>professional system</th>
+          </tr>
+          <tr>
+            <td>Goals</td>
+            <td>maximal privacy, maximal security, choice of kernels</td>
+            <td>good security, software availability, reliability </td>
+          </tr>
+          <tr>
+            <td>Operating System</td>
+            <td>Void Linux </td>
+            <td>Fedora</td>
+          </tr>
+          <tr>
+            <td>DE/Window Manager</td>
+            <td>IceWM</td>
+            <td>KDE</td>
+          </tr>
+          <tr>
+            <td>Compositor</td>
+            <td>Picom</td>
+            <td>Kwin</td>
+          </tr>
+
+        </table>
       </div>
 
       <p>My opinion on some Linux distros:</p>
@@ -178,7 +218,7 @@
         RPMs might be malicious.
       </p>
       <p><span class="colored"><b>Arch Linux :</b></span> No bloat. Bleeding edge, so unstability might come from update
-        to update, namely broken glibc and kernel panic at boot. It's generally fixed after 2-3 days. Tip: dual boot
+        to update, namely broken glibc and kernel panic at boot. It's generally fixed after 2-3 days. Tip: dual-boot
         Arch with a stable rescue distro to remain operational during these days.
       </p>
       <p><span class="colored"><b>KaOS :</b></span> No bloat, user-friendly, more stable than Arch Linux. Downside: it's
@@ -233,6 +273,31 @@ a:hover {
 
 .colored {
   color: hsl(305, 32%, 37%);
+}
+
+.text-table {
+
+  margin-bottom: 25px;
+  text-align: start;
+}
+
+table {
+  border: 1px solid #afafaf;
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  /*font-size: 1.125rem;
+  color: hsl(5, 79%, 29%);*/
+  text-align: left;
+  padding: 6px 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #eaeaea;
 }
 
 .centered-marge {
