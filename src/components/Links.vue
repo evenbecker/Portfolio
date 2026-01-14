@@ -4,8 +4,16 @@
     <h4 class="verdanaH">My Projects
     </h4>
     <!--<div id="spacer"></div>-->
-    <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://github.com/evenbecker/App-for-ordering-food"
-      target="_blank"><i class="fa fa-external-link"></i>
+    <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://pokemon-gen2.netlify.app/" target="_blank"><i
+        class="fa fa-external-link"></i>
+      Pokémon Gen II: A Nostalgia Project
+    </a><a href="https://github.com/evenbecker/pokemon-gen2" target="_blank">&nbsp;&nbsp;<i
+        class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right"
+        title="click to read the project's description on Github"></i>
+    </a>
+    <p></p>
+
+    <a href="https://github.com/evenbecker/App-for-ordering-food" target="_blank"><i class="fa fa-external-link"></i>
       An app for ordering food
     </a>
     <p></p>
@@ -30,13 +38,7 @@
     <p></p>
 
 
-    <a href="https://even-pokemon-2001.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
-      A Pokédex from 2001
-    </a><a href="https://github.com/evenbecker/pokemon-2001" target="_blank">&nbsp;&nbsp;<i
-        class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right"
-        title="click to read the project's description on Github"></i>
-    </a>
-    <p></p>
+
     <a href="https://even-audio-player.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
       A simple audio player
     </a><a href="https://github.com/evenbecker/simple-audio-player" target="_blank">&nbsp;&nbsp;<i
