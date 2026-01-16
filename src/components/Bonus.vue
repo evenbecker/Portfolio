@@ -149,7 +149,7 @@
       </div>
 
 
-      <p> For maximal security, I install my dev tools on a secondary OS in dual-boot. Indeed these tools have
+      <p> For maximum security, I install my dev tools on a secondary OS in dual-boot. Indeed these tools have
         vulnerabilities. For instance, there are more and more malicious VS Code extensions. Most people avoid dual
         booting because it is time consuming. Here is a
         summary of my dual-boot setup:</p>
@@ -162,7 +162,7 @@
           </tr>
           <tr>
             <td>Goals</td>
-            <td>maximal privacy, maximal security, choice of kernels</td>
+            <td>maximum privacy, maximum security, choice of kernels</td>
             <td>good security, software availability, reliability </td>
           </tr>
           <tr>

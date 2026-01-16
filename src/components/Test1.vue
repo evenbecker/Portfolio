@@ -142,15 +142,12 @@
     -->
     <div class="widthText" id="phrase">
       <p class="purpleText">
-        My theme is inspired by Mewtwo. I never looked beyond generation II because it has become inconsistent. It also
+        My theme is inspired by Mewtwo. I never looked beyond generation II because it has become inconsistent. The
+        original set of 251 Pok&eacute;mons released in 2000 is the best. It also
         represents humanity's peak, before people become slaved by their digital devices.
       </p>
     </div>
-    <div class="spacer"></div>
-    <div class="containerImg">
-      <img src="../assets/pictures/montain2025.png" id="montain" alt="Montain">
-      <div class="top-left">Mewtwo's secret place</div>
-    </div>
+
     <div class="spacer"></div>
     <div id="mywhite" class="container-fluid p-5 w-100">
       <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="true">
