@@ -1,4 +1,8 @@
-# My website
+# My personal portfolio website
 
-My website is deployed [here](https://evenbecker.netlify.app/).
+This portfolio was designed and developed by myself, Even Becker, using Vue.js 3 and Bootstrap 5.
+It's currently deployed on the web: [evenbecker.netlify.app](https://evenbecker.netlify.app/).
 
+# Author
+
+Even Becker, software developer
