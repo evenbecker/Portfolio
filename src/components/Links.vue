@@ -4,15 +4,22 @@
     <h4 class="verdanaH">My Projects
     </h4>
     <!--<div id="spacer"></div>-->
-    <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://pokemon-gen2.netlify.app/" target="_blank"><i
+    <span id="flashy2"> new!&nbsp;&nbsp;</span><a href="https://even-recipes-finder.netlify.app/" target="_blank"><i
         class="fa fa-external-link"></i>
+      The Recipes Finder
+    </a><a href="https://github.com/evenbecker/The-Recipes-Finder" target="_blank">&nbsp;&nbsp;<i
+        class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right"
+        title="click to read the project's description on Github"></i>
+    </a>
+    <p></p>
+
+    <a href="https://pokemon-gen2.netlify.app/" target="_blank"><i class="fa fa-external-link"></i>
       Pokémon Gen II: A Nostalgia Project
     </a><a href="https://github.com/evenbecker/pokemon-gen2" target="_blank">&nbsp;&nbsp;<i
         class="fa fa-info-circle myInfo" data-bs-toggle="tooltip" data-bs-placement="right"
         title="click to read the project's description on Github"></i>
     </a>
     <p></p>
-
     <a href="https://github.com/evenbecker/App-for-ordering-food" target="_blank"><i class="fa fa-external-link"></i>
       An app for ordering food
     </a>
